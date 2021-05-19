@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="26" failures="0" disabled="4" errors="0" timestamp="2021-05-17T14:27:02" time="4.505" name="AllTests">
+  <testsuite name="DomainDecompositionSpecialCasesTest" tests="1" failures="0" disabled="0" errors="0" time="0.005">
+    <testcase name="AnEmptyDomainWorks" status="run" time="0.005" classname="DomainDecompositionSpecialCasesTest" />
+  </testsuite>
+  <testsuite name="MimicTest" tests="4" failures="0" disabled="0" errors="0" time="0.02">
+    <testcase name="OneQuantumMol" status="run" time="0.003" classname="MimicTest" />
+    <testcase name="AllQuantumMol" status="run" time="0.004" classname="MimicTest" />
+    <testcase name="TwoQuantumMol" status="run" time="0.003" classname="MimicTest" />
+    <testcase name="BondCuts" status="run" time="0.01" classname="MimicTest" />
+  </testsuite>
+  <testsuite name="MultiSimTerminationTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="WritesCheckpointAfterMaxhTerminationAndThenRestarts" status="run" time="0" classname="MultiSimTerminationTest" />
+  </testsuite>
+  <testsuite name="ReplicaExchangeTerminationTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="WritesCheckpointAfterMaxhTerminationAndThenRestarts" status="run" time="0" classname="ReplicaExchangeTerminationTest" />
+  </testsuite>
+  <testsuite name="PmeTest" tests="3" failures="0" disabled="0" errors="0" time="3.667">
+    <testcase name="ReproducesEnergies" status="run" time="2.975" classname="PmeTest" />
+    <testcase name="ScalesTheBox" status="run" time="0.014" classname="PmeTest" />
+    <testcase name="ScalesTheBoxWithWalls" status="run" time="0.678" classname="PmeTest" />
+  </testsuite>
+  <testsuite name="MinimizersWorkWithConstraints/EnergyMinimizationTest" tests="6" failures="0" disabled="0" errors="0" time="0.61">
+    <testcase name="WithinTolerances/0" value_param="(&quot;tip3p5&quot;, &quot;steep&quot;)" status="run" time="0.249" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;tip3p5&quot;, &quot;cg&quot;)" status="run" time="0.244" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;glycine_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.055" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;glycine_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.047" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/4" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.007" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/5" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.008" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+  </testsuite>
+  <testsuite name="MinimizersWork/EnergyMinimizationTest" tests="6" failures="0" disabled="0" errors="0" time="0.146">
+    <testcase name="WithinTolerances/0" value_param="(&quot;argon12&quot;, &quot;steep&quot;)" status="run" time="0.003" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;argon12&quot;, &quot;cg&quot;)" status="run" time="0.002" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;argon12&quot;, &quot;l-bfgs&quot;)" status="run" time="0.002" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.047" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/4" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.047" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/5" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;l-bfgs&quot;)" status="run" time="0.045" classname="MinimizersWork/EnergyMinimizationTest" />
+  </testsuite>
+  <testsuite name="DISABLED_InNvt/MultiSimTest" tests="2" failures="0" disabled="2" errors="0" time="0">
+    <testcase name="ExitsNormally/0" value_param="&quot;pcoupl = no&quot;" status="notrun" time="0" classname="DISABLED_InNvt/MultiSimTest" />
+    <testcase name="ExitsNormallyWithDifferentNumbersOfStepsPerSimulation/0" value_param="&quot;pcoupl = no&quot;" status="notrun" time="0" classname="DISABLED_InNvt/MultiSimTest" />
+  </testsuite>
+  <testsuite name="DISABLED_WithDifferentControlVariables/ReplicaExchangeEnsembleTest" tests="2" failures="0" disabled="2" errors="0" time="0">
+    <testcase name="ExitsNormally/0" value_param="&quot;pcoupl = no&quot;" status="notrun" time="0" classname="DISABLED_WithDifferentControlVariables/ReplicaExchangeEnsembleTest" />
+    <testcase name="ExitsNormally/1" value_param="&quot;pcoupl = Berendsen&quot;" status="notrun" time="0" classname="DISABLED_WithDifferentControlVariables/ReplicaExchangeEnsembleTest" />
+  </testsuite>
+</testsuites>

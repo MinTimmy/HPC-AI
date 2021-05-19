@@ -1,0 +1,18 @@
+# This file was created Mon May 17 14:25:41 2021
+# Created by:
+#                      :-) GROMACS - mdrun-test, 2021.2 (-:
+# 
+# Executable:   /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/bin/mdrun-test
+# Data prefix:  /home/timmy/myCode/HPC-AI/gromacs-2021.2 (source tree)
+# Working dir:  /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/programs/mdrun/tests
+# Command line:
+#   mdrun-test -ntomp 2 --gtest_output=xml:/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/Testing/Temporary/MdrunTests.xml
+# mdrun-test is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Pull force"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Force (kJ/mol/nm)"
+@TYPE xy
+0.0000	-1115.75

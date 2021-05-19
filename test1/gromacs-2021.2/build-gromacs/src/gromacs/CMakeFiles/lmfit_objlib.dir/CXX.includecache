@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/timmy/myCode/HPC-AI/test1/gromacs-2021.2/src/external/lmfit/lmmin.cpp
+assert.h
+-
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+float.h
+-
+lmmin.h
+/home/timmy/myCode/HPC-AI/test1/gromacs-2021.2/src/external/lmfit/lmmin.h
+
+/home/timmy/myCode/HPC-AI/test1/gromacs-2021.2/src/external/lmfit/lmmin.h
+lmstruct.h
+/home/timmy/myCode/HPC-AI/test1/gromacs-2021.2/src/external/lmfit/lmstruct.h
+
+/home/timmy/myCode/HPC-AI/test1/gromacs-2021.2/src/external/lmfit/lmstruct.h
+stdio.h
+-
+

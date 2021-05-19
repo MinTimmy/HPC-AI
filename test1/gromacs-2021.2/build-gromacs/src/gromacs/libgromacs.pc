@@ -1,0 +1,11 @@
+libdir=/home/timmy/myCode/HPC-AI/test1/gromacs-2021.0/build-gromacs/lib
+
+Name: libgromacs
+Description: Gromacs library
+URL: http://www.gromacs.org
+Version: 2021.2
+Requires:  
+Libs.private: -lpthread  
+Libs: -L${libdir} -lgromacs  -lm
+Cflags:  -I/home/timmy/myCode/HPC-AI/test1/gromacs-2021.0/build-gromacs/include -DGMX_DOUBLE=0 -fopenmp
+

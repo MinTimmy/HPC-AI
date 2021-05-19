@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="141" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.034" name="AllTests">
+  <testsuite name="VerletBufferConstraintTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="EqualMasses" status="run" time="0" classname="VerletBufferConstraintTest" />
+  </testsuite>
+  <testsuite name="PrEbinTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesAverages" status="run" time="0" classname="PrEbinTest" />
+    <testcase name="HandlesEmptyAverages" status="run" time="0" classname="PrEbinTest" />
+  </testsuite>
+  <testsuite name="EnergyDriftTracker" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="emptyWorks" status="run" time="0" classname="EnergyDriftTracker" />
+    <testcase name="onePointWorks" status="run" time="0" classname="EnergyDriftTracker" />
+    <testcase name="manyPointsWorks" status="run" time="0" classname="EnergyDriftTracker" />
+  </testsuite>
+  <testsuite name="ShakeTest" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstrainsOneBond" status="run" time="0" classname="ShakeTest" />
+    <testcase name="ConstrainsTwoDisjointBonds" status="run" time="0" classname="ShakeTest" />
+    <testcase name="ConstrainsTwoBondsWithACommonAtom" status="run" time="0" classname="ShakeTest" />
+    <testcase name="ConstrainsThreeBondsWithCommonAtoms" status="run" time="0" classname="ShakeTest" />
+  </testsuite>
+  <testsuite name="NullSignalTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="NullSignallerWorks" status="run" time="0" classname="NullSignalTest" />
+  </testsuite>
+  <testsuite name="SignalTest" tests="7" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="NoSignalPropagatesIfNoSignallingTakesPlace" status="run" time="0" classname="SignalTest" />
+    <testcase name="LocalIntraSimSignalPropagatesWhenIntraSimSignalTakesPlace" status="run" time="0" classname="SignalTest" />
+    <testcase name="LocalIntraSimSignalPropagatesWhenInterSimTakesPlace" status="run" time="0" classname="SignalTest" />
+    <testcase name="LocalIntraSimSignalPropagatesWhenBothTakePlace" status="run" time="0" classname="SignalTest" />
+    <testcase name="NonLocalSignalDoesntPropagateWhenIntraSimSignalTakesPlace" status="run" time="0" classname="SignalTest" />
+    <testcase name="NonLocalSignalPropagatesWhenInterSimSignalTakesPlace" status="run" time="0" classname="SignalTest" />
+    <testcase name="NonLocalSignalPropagatesWhenBothTakePlace" status="run" time="0" classname="SignalTest" />
+  </testsuite>
+  <testsuite name="UpdateGroups" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ethaneUA" status="run" time="0" classname="UpdateGroups" />
+    <testcase name="methane" status="run" time="0" classname="UpdateGroups" />
+    <testcase name="ethane" status="run" time="0" classname="UpdateGroups" />
+    <testcase name="butaneUA" status="run" time="0" classname="UpdateGroups" />
+    <testcase name="waterThreeSite" status="run" time="0" classname="UpdateGroups" />
+    <testcase name="waterFourSite" status="run" time="0" classname="UpdateGroups" />
+    <testcase name="fourAtomsWithSettle" status="run" time="0" classname="UpdateGroups" />
+    <testcase name="waterFlexAngle" status="run" time="0" classname="UpdateGroups" />
+    <testcase name="twoMoltypes" status="run" time="0" classname="UpdateGroups" />
+  </testsuite>
+  <testsuite name="UpdateGroupsCog" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="ComputesCogs" status="run" time="0.001" classname="UpdateGroupsCog" />
+  </testsuite>
+  <testsuite name="WithParameters/ConstraintsTest" tests="12" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="SingleConstraint/0" value_param="&quot;PBCNone&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="SingleConstraint/1" value_param="&quot;PBCXYZ&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="TwoDisjointConstraints/0" value_param="&quot;PBCNone&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="TwoDisjointConstraints/1" value_param="&quot;PBCXYZ&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="ThreeSequentialConstraints/0" value_param="&quot;PBCNone&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="ThreeSequentialConstraints/1" value_param="&quot;PBCXYZ&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="ThreeConstraintsWithCentralAtom/0" value_param="&quot;PBCNone&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="ThreeConstraintsWithCentralAtom/1" value_param="&quot;PBCXYZ&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="FourSequentialConstraints/0" value_param="&quot;PBCNone&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="FourSequentialConstraints/1" value_param="&quot;PBCXYZ&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="TriangleOfConstraints/0" value_param="&quot;PBCNone&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+    <testcase name="TriangleOfConstraints/1" value_param="&quot;PBCXYZ&quot;" status="run" time="0" classname="WithParameters/ConstraintsTest" />
+  </testsuite>
+  <testsuite name="WithParameters/EnergyOutputTest" tests="11" failures="0" disabled="0" errors="0" time="0.016">
+    <testcase name="CheckOutput/0" value_param="20-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00&gt;" status="run" time="0.002" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/1" value_param="20-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00 01-00 00-00 01-00 00-00&gt;" status="run" time="0" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/2" value_param="20-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00 01-00 00-00 00-01 00-00&gt;" status="run" time="0.002" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/3" value_param="20-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/4" value_param="20-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00 0A-00 00-00 00-00 00-00&gt;" status="run" time="0.004" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/5" value_param="20-byte object &lt;06-00 00-00 00-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/6" value_param="20-byte object &lt;02-00 00-00 00-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/7" value_param="20-byte object &lt;00-00 00-00 02-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/8" value_param="20-byte object &lt;00-00 00-00 04-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/9" value_param="20-byte object &lt;00-00 00-00 00-00 00-00 0A-00 00-00 01-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/EnergyOutputTest" />
+    <testcase name="CheckOutput/10" value_param="20-byte object &lt;00-00 00-00 04-00 00-00 0A-00 00-00 01-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/EnergyOutputTest" />
+  </testsuite>
+  <testsuite name="SimpleTests/CalculateAcceptanceWeightSimple" tests="24" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="UnknownCalculationModeThrows/0" value_param="1" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="UnknownCalculationModeThrows/1" value_param="-1" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="UnknownCalculationModeThrows/2" value_param="0" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="UnknownCalculationModeThrows/3" value_param="-0" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="UnknownCalculationModeThrows/4" value_param="1.19209e-07" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="UnknownCalculationModeThrows/5" value_param="-1.19209e-07" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="UnknownCalculationModeThrows/6" value_param="3.40282e+38" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="UnknownCalculationModeThrows/7" value_param="-3.40282e+38" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="KnownCalculationModeDoesNotThrow/0" value_param="1" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="KnownCalculationModeDoesNotThrow/1" value_param="-1" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="KnownCalculationModeDoesNotThrow/2" value_param="0" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="KnownCalculationModeDoesNotThrow/3" value_param="-0" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="KnownCalculationModeDoesNotThrow/4" value_param="1.19209e-07" status="run" time="0.001" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="KnownCalculationModeDoesNotThrow/5" value_param="-1.19209e-07" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="KnownCalculationModeDoesNotThrow/6" value_param="3.40282e+38" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="KnownCalculationModeDoesNotThrow/7" value_param="-3.40282e+38" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="BarkerAndMinVarAreIdentical/0" value_param="1" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="BarkerAndMinVarAreIdentical/1" value_param="-1" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="BarkerAndMinVarAreIdentical/2" value_param="0" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="BarkerAndMinVarAreIdentical/3" value_param="-0" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="BarkerAndMinVarAreIdentical/4" value_param="1.19209e-07" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="BarkerAndMinVarAreIdentical/5" value_param="-1.19209e-07" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="BarkerAndMinVarAreIdentical/6" value_param="3.40282e+38" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+    <testcase name="BarkerAndMinVarAreIdentical/7" value_param="-3.40282e+38" status="run" time="0" classname="SimpleTests/CalculateAcceptanceWeightSimple" />
+  </testsuite>
+  <testsuite name="RegressionTests/CalculateAcceptanceWeightRangeRegression" tests="14" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ValuesMatch/0" value_param="(1, 0, 1)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/1" value_param="(1, -0, 1)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/2" value_param="(1, 1.19209e-07, 1)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/3" value_param="(1, -1, 1)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/4" value_param="(1, -3.40282e+38, 1)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/5" value_param="(1, 1, 0.367879)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/6" value_param="(1, 3.40282e+38, 0)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/7" value_param="(2, 0, 0.5)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/8" value_param="(2, -0, 0.5)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/9" value_param="(2, 1.19209e-07, 0.5)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/10" value_param="(2, -1, 0.731059)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/11" value_param="(2, -3.40282e+38, 1)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/12" value_param="(2, 1, 0.268941)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+    <testcase name="ValuesMatch/13" value_param="(2, 3.40282e+38, 0)" status="run" time="0" classname="RegressionTests/CalculateAcceptanceWeightRangeRegression" />
+  </testsuite>
+  <testsuite name="WithParameters/FreeEnergyParameterTest" tests="23" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CorrectLambdas/0" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 80-BF 00-00 80-BF 00-00 80-BF 00-00 80-BF 00-00 80-BF 00-00 80-BF 00-00 80-BF 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/1" value_param="80-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00 00-00 F0-BF FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/2" value_param="80-byte object &lt;01-00 00-00 00-00 00-00 00-00 00-00 00-00 F0-BF FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 00-00 02-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/3" value_param="80-byte object &lt;01-00 00-00 00-00 00-00 00-00 00-00 00-00 F0-BF FF-FF FF-FF 00-00 00-00 9A-99 99-99 99-99 B9-3F 02-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/4" value_param="80-byte object &lt;01-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 FF-FF FF-FF 00-00 00-00 9A-99 99-99 99-99 B9-3F 02-00 00-00 00-00 00-00 0A-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/5" value_param="80-byte object &lt;01-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 FF-FF FF-FF 00-00 00-00 9A-99 99-99 99-99 B9-3F 02-00 00-00 00-00 00-00 05-00 00-00 00-00 00-00 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/6" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 01-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 02-00 00-00 00-00 00-00 05-00 00-00 00-00 00-00 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/7" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 01-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 02-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 A4-70 3D-3F A4-70 3D-3F A4-70 3D-3F A4-70 3D-3F A4-70 3D-3F A4-70 3D-3F A4-70 3D-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/8" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 00-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-3F 03-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/9" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 00-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-3F 03-00 00-00 00-00 00-00 03-00 00-00 00-00 00-00 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/10" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 00-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-3F 03-00 00-00 00-00 00-00 07-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/11" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 00-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-3F 03-00 00-00 00-00 00-00 08-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/12" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 00-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-3F 03-00 00-00 00-00 00-00 0A-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/13" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 02-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/14" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 02-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 02-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/15" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 02-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 03-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/16" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 02-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 05-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/17" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 02-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 07-00 00-00 00-00 00-00 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/18" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 02-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 08-00 00-00 00-00 00-00 AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/19" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 02-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 0A-00 00-00 00-00 00-00 CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E CD-CC 4C-3E 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/20" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 01-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F CD-CC 4C-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/21" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 01-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 02-00 00-00 00-00 00-00 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 29-5C 0F-3F 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+    <testcase name="CorrectLambdas/22" value_param="80-byte object &lt;FF-FF FF-FF 00-00 00-00 00-00 00-00 00-00 F0-BF 01-00 00-00 00-00 00-00 9A-99 99-99 99-99 B9-BF 03-00 00-00 00-00 00-00 03-00 00-00 00-00 00-00 AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E AE-47 E1-3E 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/FreeEnergyParameterTest" />
+  </testsuite>
+  <testsuite name="WithParameters/LeapFrogTest" tests="16" failures="0" disabled="0" errors="0" time="0.012">
+    <testcase name="SimpleIntegration/0" value_param="44-byte object &lt;01-00 00-00 6F-12 83-3A 01-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/1" value_param="44-byte object &lt;01-00 00-00 6F-12 83-3A 01-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/2" value_param="44-byte object &lt;01-00 00-00 6F-12 83-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/3" value_param="44-byte object &lt;01-00 00-00 6F-12 83-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/4" value_param="44-byte object &lt;0A-00 00-00 6F-12 83-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/5" value_param="44-byte object &lt;64-00 00-00 6F-12 83-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/6" value_param="44-byte object &lt;2C-01 00-00 6F-12 83-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 00-00 00-00&gt;" status="run" time="0.003" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/7" value_param="44-byte object &lt;01-00 00-00 6F-12 03-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/8" value_param="44-byte object &lt;01-00 00-00 6F-12 83-3A 0A-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/9" value_param="44-byte object &lt;01-00 00-00 6F-12 83-3A 64-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/10" value_param="44-byte object &lt;64-00 00-00 6F-12 83-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 01-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/11" value_param="44-byte object &lt;64-00 00-00 6F-12 83-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 02-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/12" value_param="44-byte object &lt;64-00 00-00 6F-12 83-3A 01-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 0A-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/13" value_param="44-byte object &lt;64-00 00-00 6F-12 83-3A 0A-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 01-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/14" value_param="44-byte object &lt;64-00 00-00 6F-12 83-3A 0A-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 02-00 00-00 01-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+    <testcase name="SimpleIntegration/15" value_param="44-byte object &lt;64-00 00-00 6F-12 83-3A 0A-00 00-00 00-00 80-3F 00-00 00-C0 00-00 40-40 00-00 40-C0 00-00 00-40 00-00 80-BF 00-00 00-00 03-00 00-00&gt;" status="run" time="0" classname="WithParameters/LeapFrogTest" />
+  </testsuite>
+  <testsuite name="WithParameters/SettleTest" tests="13" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="SatisfiesConstraints/0" value_param="40-byte object &lt;01-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/1" value_param="40-byte object &lt;02-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/2" value_param="40-byte object &lt;04-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/3" value_param="40-byte object &lt;05-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/4" value_param="40-byte object &lt;06-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/5" value_param="40-byte object &lt;0A-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/6" value_param="40-byte object &lt;0C-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/7" value_param="40-byte object &lt;0F-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/8" value_param="40-byte object &lt;11-00 00-00 01-00 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/9" value_param="40-byte object &lt;11-00 00-00 00-01 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0.001" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/10" value_param="40-byte object &lt;11-00 00-00 00-00 00-00 C8-46 51-D6 7C-55 00-00 07-00 00-00 00-00 00-00 50-42 43-4E 6F-6E 65-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/11" value_param="40-byte object &lt;11-00 00-00 01-01 00-00 C8-46 51-D6 7C-55 00-00 07-00 00-00 00-00 00-00 50-42 43-4E 6F-6E 65-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/12" value_param="40-byte object &lt;11-00 00-00 01-01 00-00 C8-46 51-D6 7C-55 00-00 06-00 00-00 00-00 00-00 50-42 43-58 59-5A 00-00 31-00 00-00 00-00 00-00&gt;" status="run" time="0" classname="WithParameters/SettleTest" />
+  </testsuite>
+</testsuites>

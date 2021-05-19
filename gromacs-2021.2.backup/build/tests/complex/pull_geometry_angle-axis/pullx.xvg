@@ -1,0 +1,18 @@
+# This file was created Mon May 17 14:41:01 2021
+# Created by:
+#                      :-) GROMACS - gmx mdrun, 2021.2 (-:
+# 
+# Executable:   /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/bin/gmx
+# Data prefix:  /home/timmy/myCode/HPC-AI/gromacs-2021.2 (source tree)
+# Working dir:  /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/complex/pull_geometry_angle-axis
+# Command line:
+#   gmx mdrun -notunepme
+# gmx mdrun is part of G R O M A C S:
+#
+# GROMACS
+#
+@    title "Pull COM"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Position (nm, deg)"
+@TYPE xy
+0.0000	104.108

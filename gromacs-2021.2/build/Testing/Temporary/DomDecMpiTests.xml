@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.001" name="AllTests">
+  <testsuite name="HaloExchangeTest" tests="4" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="Coordinates1dHaloWith1Pulse" status="run" time="0.001" classname="HaloExchangeTest" />
+    <testcase name="Coordinates1dHaloWith2Pulses" status="run" time="0" classname="HaloExchangeTest" />
+    <testcase name="Coordinates2dHaloWith1PulseInEachDim" status="run" time="0" classname="HaloExchangeTest" />
+    <testcase name="Coordinates2dHaloWith2PulsesInDim1" status="run" time="0" classname="HaloExchangeTest" />
+  </testsuite>
+</testsuites>

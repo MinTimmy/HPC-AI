@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="18" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.001" name="AllTests">
+  <testsuite name="DensityFittingTest" tests="2" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="ForceProviderLackingInputThrows" status="run" time="0" classname="DensityFittingTest" />
+    <testcase name="SingleAtom" status="run" time="0" classname="DensityFittingTest" />
+  </testsuite>
+  <testsuite name="DensityFittingAmplitudeLookupTest" tests="7" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Unity" status="run" time="0" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="Charge" status="run" time="0" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="Masses" status="run" time="0" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="CanCopyAssign" status="run" time="0" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="CanCopyConstruct" status="run" time="0" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="CanMoveAssign" status="run" time="0" classname="DensityFittingAmplitudeLookupTest" />
+    <testcase name="CanMoveConstruct" status="run" time="0" classname="DensityFittingAmplitudeLookupTest" />
+  </testsuite>
+  <testsuite name="DensityFittingForceProviderState" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="RoundTripSaving" status="run" time="0" classname="DensityFittingForceProviderState" />
+  </testsuite>
+  <testsuite name="DensityFittingOptionsTest" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="DefaultParameters" status="run" time="0" classname="DensityFittingOptionsTest" />
+    <testcase name="OptionSetsActive" status="run" time="0" classname="DensityFittingOptionsTest" />
+    <testcase name="OutputNoDefaultValuesWhenInactive" status="run" time="0" classname="DensityFittingOptionsTest" />
+    <testcase name="OutputDefaultValuesWhenActive" status="run" time="0" classname="DensityFittingOptionsTest" />
+    <testcase name="CanConvertGroupStringToIndexGroup" status="run" time="0" classname="DensityFittingOptionsTest" />
+    <testcase name="InternalsToKvt" status="run" time="0" classname="DensityFittingOptionsTest" />
+    <testcase name="KvtToInternal" status="run" time="0" classname="DensityFittingOptionsTest" />
+    <testcase name="RoundTripForInternalsIsIdempotent" status="run" time="0" classname="DensityFittingOptionsTest" />
+  </testsuite>
+</testsuites>

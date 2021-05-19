@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="27" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.716" name="AllTests">
+  <testsuite name="Entropy" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Schlitter_300_NoLinear" status="run" time="0" classname="Entropy" />
+    <testcase name="Schlitter_300_Linear" status="run" time="0" classname="Entropy" />
+    <testcase name="QuasiHarmonic_300_NoLinear" status="run" time="0" classname="Entropy" />
+    <testcase name="QuasiHarmonic_200_NoLinear" status="run" time="0" classname="Entropy" />
+    <testcase name="QuasiHarmonic_200_Linear" status="run" time="0" classname="Entropy" />
+  </testsuite>
+  <testsuite name="MindistTest" tests="10" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="mindistWorksWithSingleAtoms" status="run" time="0.001" classname="MindistTest" />
+    <testcase name="mindistWorksWithMultipleAtoms" status="run" time="0" classname="MindistTest" />
+    <testcase name="mindistDoesNotPickUpContacts" status="run" time="0" classname="MindistTest" />
+    <testcase name="mindistPicksUpContacts" status="run" time="0.001" classname="MindistTest" />
+    <testcase name="ngWorks" status="run" time="0" classname="MindistTest" />
+    <testcase name="groupWorks" status="run" time="0" classname="MindistTest" />
+    <testcase name="maxDistWorks" status="run" time="0.001" classname="MindistTest" />
+    <testcase name="noPbcWorks" status="run" time="0" classname="MindistTest" />
+    <testcase name="resPerTimeWorks" status="run" time="0" classname="MindistTest" />
+    <testcase name="matrixWorks" status="run" time="0.001" classname="MindistTest" />
+  </testsuite>
+  <testsuite name="MsdTest" tests="3" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="threeDimensionalDiffusion" status="run" time="0" classname="MsdTest" />
+    <testcase name="twoDimensionalDiffusion" status="run" time="0" classname="MsdTest" />
+    <testcase name="oneDimensionalDiffusion" status="run" time="0.001" classname="MsdTest" />
+  </testsuite>
+  <testsuite name="MsdMolTest" tests="3" failures="0" disabled="0" errors="0" time="0.707">
+    <testcase name="diffMolMassWeighted" status="run" time="0.258" classname="MsdMolTest" />
+    <testcase name="diffMolNonMassWeighted" status="run" time="0.226" classname="MsdMolTest" />
+    <testcase name="diffMolSelected" status="run" time="0.223" classname="MsdMolTest" />
+  </testsuite>
+  <testsuite name="NoFatalErrorWhenWritingFrom/GmxTraj" tests="6" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="WithDifferentInputFormats/0" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/1" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/2" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/3" value_param="&quot;spc2-traj.gro&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/4" value_param="&quot;spc2-traj.pdb&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/5" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+  </testsuite>
+</testsuites>

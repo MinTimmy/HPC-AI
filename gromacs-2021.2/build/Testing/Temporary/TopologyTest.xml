@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="31" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.001" name="AllTests">
+  <testsuite name="ExclusionBlockTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConvertBlockAToExclusionBlocks" status="run" time="0" classname="ExclusionBlockTest" />
+    <testcase name="ConvertExclusionBlockToBlocka" status="run" time="0" classname="ExclusionBlockTest" />
+    <testcase name="MergeExclusions" status="run" time="0" classname="ExclusionBlockTest" />
+  </testsuite>
+  <testsuite name="InteractionListTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="EmptyWorks" status="run" time="0" classname="InteractionListTest" />
+    <testcase name="CanAddInteractionArray" status="run" time="0" classname="InteractionListTest" />
+    <testcase name="CanAddInteractionArrayMultipleAtoms" status="run" time="0" classname="InteractionListTest" />
+    <testcase name="CanAddInteractionPointer" status="run" time="0" classname="InteractionListTest" />
+    <testcase name="CanAddListToOtherList" status="run" time="0" classname="InteractionListTest" />
+    <testcase name="ClearingWorks" status="run" time="0" classname="InteractionListTest" />
+  </testsuite>
+  <testsuite name="MtopTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="RangeBasedLoop" status="run" time="0" classname="MtopTest" />
+    <testcase name="Operators" status="run" time="0" classname="MtopTest" />
+    <testcase name="CanFindResidueStartAndEndAtoms" status="run" time="0" classname="MtopTest" />
+  </testsuite>
+  <testsuite name="StringTableTest" tests="13" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="AddSingleEntry" status="run" time="0" classname="StringTableTest" />
+    <testcase name="CanAccessWithAt" status="run" time="0" classname="StringTableTest" />
+    <testcase name="CanAccessWithBracket" status="run" time="0" classname="StringTableTest" />
+    <testcase name="ThrowsOutOfRange" status="run" time="0.001" classname="StringTableTest" />
+    <testcase name="StringCompareIsCorrect" status="run" time="0" classname="StringTableTest" />
+    <testcase name="AddTwoDistinctEntries" status="run" time="0" classname="StringTableTest" />
+    <testcase name="TryToAddDuplicates" status="run" time="0" classname="StringTableTest" />
+    <testcase name="AddLargeNumberOfEntries" status="run" time="0" classname="StringTableTest" />
+    <testcase name="NoDuplicatesInLargeTable" status="run" time="0" classname="StringTableTest" />
+    <testcase name="CanWriteToBuffer" status="run" time="0" classname="StringTableTest" />
+    <testcase name="Roundtrip" status="run" time="0" classname="StringTableTest" />
+    <testcase name="RoundtripWithCorrectStringIndices" status="run" time="0" classname="StringTableTest" />
+    <testcase name="CanCopyToLegacyTable" status="run" time="0" classname="StringTableTest" />
+  </testsuite>
+  <testsuite name="LegacySymtabTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="EmptyOnOpen" status="run" time="0" classname="LegacySymtabTest" />
+    <testcase name="AddSingleEntry" status="run" time="0" classname="LegacySymtabTest" />
+    <testcase name="AddTwoDistinctEntries" status="run" time="0" classname="LegacySymtabTest" />
+    <testcase name="TryToAddDuplicates" status="run" time="0" classname="LegacySymtabTest" />
+    <testcase name="AddLargeNumberOfEntries" status="run" time="0" classname="LegacySymtabTest" />
+    <testcase name="NoDuplicatesInLargeTable" status="run" time="0" classname="LegacySymtabTest" />
+  </testsuite>
+</testsuites>

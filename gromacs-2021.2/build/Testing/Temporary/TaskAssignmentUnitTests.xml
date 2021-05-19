@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0" name="AllTests">
+  <testsuite name="UserTaskAssignmentStringHandlingTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ParsingAndReconstructionWork" status="run" time="0" classname="UserTaskAssignmentStringHandlingTest" />
+    <testcase name="EmptyStringCanBeValid" status="run" time="0" classname="UserTaskAssignmentStringHandlingTest" />
+  </testsuite>
+  <testsuite name="GpuIdAndAssignmentStringHandlingTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="InvalidInputsThrow" status="run" time="0" classname="GpuIdAndAssignmentStringHandlingTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,63 @@
+                      :-) GROMACS - gmx grompp, 2021.2 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2021.2
+Executable:   /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/bin/gmx
+Data prefix:  /home/timmy/myCode/HPC-AI/gromacs-2021.2 (source tree)
+Working dir:  /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/complex/pull_constraint
+Command line:
+  gmx grompp -f /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/regressiontests-2021.2/complex/pull_constraint/grompp.mdp -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/regressiontests-2021.2/complex/pull_constraint/conf -r /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/regressiontests-2021.2/complex/pull_constraint/conf -p /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/regressiontests-2021.2/complex/pull_constraint/topol -ref /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/regressiontests-2021.2/complex/pull_constraint/rotref -maxwarn 10 -n /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/regressiontests-2021.2/complex/pull_constraint/index
+
+Ignoring obsolete mdp entry 'optimize_fft'
+Ignoring obsolete mdp entry 'ns_type'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc_precision' by 'compressed-x-precision'
+
+NOTE 1 [file /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/regressiontests-2021.2/complex/pull_constraint/grompp.mdp]:
+  You have set rlist larger than the interaction cut-off, but you also have
+  verlet-buffer-tolerance > 0. Will set rlist using verlet-buffer-tolerance.
+
+Generating 1-4 interactions: fudge = 0.5
+Pull group 1 'r_1' has 3 atoms
+Pull group 2 'r_2' has 3 atoms
+Pull group 3 'r_3' has 3 atoms
+Number of degrees of freedom in T-Coupling group System is 1292.00
+Pull group  natoms  pbc atom  distance at start  reference at t=0
+       1         3         2
+       2         3         5       0.500 nm          0.500 nm
+       1         3         2
+       3         3         8       0.726 nm          0.400 nm
+
+There was 1 note
+
+Thanx for Using GROMACS - Have a Nice Day
+

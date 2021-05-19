@@ -1,0 +1,301 @@
+Determining if files io.h exist failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1bffa/fast && /usr/bin/make -f CMakeFiles/cmTC_1bffa.dir/build.make CMakeFiles/cmTC_1bffa.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bffa.dir/HAVE_IO_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1bffa.dir/HAVE_IO_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c:2:10: fatal error: io.h: No such file or directory
+    2 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1bffa.dir/build.make:66: CMakeFiles/cmTC_1bffa.dir/HAVE_IO_H.c.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1bffa/fast] Error 2
+
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if the _fileno exist failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96298/fast && /usr/bin/make -f CMakeFiles/cmTC_96298.dir/build.make CMakeFiles/cmTC_96298.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96298.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_96298.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘_fileno’ was not declared in this scope; did you mean ‘fileno’?
+    8 |   return ((int*)(&_fileno))[argc];
+      |                   ^~~~~~~
+      |                   fileno
+make[1]: *** [CMakeFiles/cmTC_96298.dir/build.make:66: CMakeFiles/cmTC_96298.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_96298/fast] Error 2
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _fileno
+  return ((int*)(&_fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _commit exist failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02878/fast && /usr/bin/make -f CMakeFiles/cmTC_02878.dir/build.make CMakeFiles/cmTC_02878.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02878.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_02878.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: io.h: No such file or directory
+    2 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_02878.dir/build.make:66: CMakeFiles/cmTC_02878.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_02878/fast] Error 2
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _commit
+  return ((int*)(&_commit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ad5a/fast && /usr/bin/make -f CMakeFiles/cmTC_3ad5a.dir/build.make CMakeFiles/cmTC_3ad5a.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ad5a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_3ad5a.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘memalign’ was not declared in this scope
+    8 |   return ((int*)(&memalign))[argc];
+      |                   ^~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_3ad5a.dir/build.make:66: CMakeFiles/cmTC_3ad5a.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3ad5a/fast] Error 2
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38603/fast && /usr/bin/make -f CMakeFiles/cmTC_38603.dir/build.make CMakeFiles/cmTC_38603.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38603.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_38603.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_38603
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38603.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_38603.dir/src.c.o  -o cmTC_38603 
+/usr/bin/ld: CMakeFiles/cmTC_38603.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_38603.dir/build.make:87: cmTC_38603] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_38603/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6381/fast && /usr/bin/make -f CMakeFiles/cmTC_f6381.dir/build.make CMakeFiles/cmTC_f6381.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6381.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f6381.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f6381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6381.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f6381.dir/CheckFunctionExists.c.o  -o cmTC_f6381  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_f6381.dir/build.make:87: cmTC_f6381] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f6381/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test C_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_913ba/fast && /usr/bin/make -f CMakeFiles/cmTC_913ba.dir/build.make CMakeFiles/cmTC_913ba.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_913ba.dir/src.c.o
+/usr/bin/cc   -DC_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED    -xCORE-AVX512 -qopt-zmm-usage=high -o CMakeFiles/cmTC_913ba.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-qopt-zmm-usage=high'
+make[1]: *** [CMakeFiles/cmTC_913ba.dir/build.make:66: CMakeFiles/cmTC_913ba.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_913ba/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_xCORE_AVX512_FLAG_ACCEPTED failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58743/fast && /usr/bin/make -f CMakeFiles/cmTC_58743.dir/build.make CMakeFiles/cmTC_58743.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58743.dir/src.c.o
+/usr/bin/cc   -DC_xCORE_AVX512_FLAG_ACCEPTED    -xCORE-AVX512 -o CMakeFiles/cmTC_58743.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+cc: error: language CORE-AVX512 not recognized
+cc: error: language CORE-AVX512 not recognized
+make[1]: *** [CMakeFiles/cmTC_58743.dir/build.make:66: CMakeFiles/cmTC_58743.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_58743/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d6d9/fast && /usr/bin/make -f CMakeFiles/cmTC_9d6d9.dir/build.make CMakeFiles/cmTC_9d6d9.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d6d9.dir/src.cxx.o
+/usr/bin/c++    -DCXX_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED    -xCORE-AVX512 -qopt-zmm-usage=high -std=c++17 -o CMakeFiles/cmTC_9d6d9.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-qopt-zmm-usage=high'
+make[1]: *** [CMakeFiles/cmTC_9d6d9.dir/build.make:66: CMakeFiles/cmTC_9d6d9.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9d6d9/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_xCORE_AVX512_FLAG_ACCEPTED failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0bd33/fast && /usr/bin/make -f CMakeFiles/cmTC_0bd33.dir/build.make CMakeFiles/cmTC_0bd33.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0bd33.dir/src.cxx.o
+/usr/bin/c++    -DCXX_xCORE_AVX512_FLAG_ACCEPTED    -xCORE-AVX512 -std=c++17 -o CMakeFiles/cmTC_0bd33.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: language CORE-AVX512 not recognized
+c++: error: language CORE-AVX512 not recognized
+make[1]: *** [CMakeFiles/cmTC_0bd33.dir/build.make:66: CMakeFiles/cmTC_0bd33.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0bd33/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _callconv___vectorcall failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cad08/fast && /usr/bin/make -f CMakeFiles/cmTC_cad08.dir/build.make CMakeFiles/cmTC_cad08.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cad08.dir/src.cxx.o
+/usr/bin/c++    -D_callconv___vectorcall   -std=c++17 -o CMakeFiles/cmTC_cad08.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx:3:18: error: expected initializer before ‘f’
+    3 | int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+      |                  ^
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx:3:62: error: ‘f’ was not declared in this scope
+    3 | int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+      |                                                              ^
+make[1]: *** [CMakeFiles/cmTC_cad08.dir/build.make:66: CMakeFiles/cmTC_cad08.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cad08/fast] Error 2
+
+
+Source file was:
+
+#pragma GCC diagnostic error "-Wignored-attributes"
+int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+
+Performing C++ SOURCE FILE Test _callconv___regcall failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d790d/fast && /usr/bin/make -f CMakeFiles/cmTC_d790d.dir/build.make CMakeFiles/cmTC_d790d.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d790d.dir/src.cxx.o
+/usr/bin/c++    -D_callconv___regcall   -std=c++17 -o CMakeFiles/cmTC_d790d.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx:3:15: error: expected initializer before ‘f’
+    3 | int __regcall f(int i) {return i;} int main(void) {return f(0);}
+      |               ^
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx:3:59: error: ‘f’ was not declared in this scope
+    3 | int __regcall f(int i) {return i;} int main(void) {return f(0);}
+      |                                                           ^
+make[1]: *** [CMakeFiles/cmTC_d790d.dir/build.make:66: CMakeFiles/cmTC_d790d.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d790d/fast] Error 2
+
+
+Source file was:
+
+#pragma GCC diagnostic error "-Wignored-attributes"
+int __regcall f(int i) {return i;} int main(void) {return f(0);}
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6aa2a/fast && /usr/bin/make -f CMakeFiles/cmTC_6aa2a.dir/build.make CMakeFiles/cmTC_6aa2a.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6aa2a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_6aa2a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6aa2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aa2a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_6aa2a.dir/CheckFunctionExists.c.o  -o cmTC_6aa2a 
+/usr/bin/ld: CMakeFiles/cmTC_6aa2a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6aa2a.dir/build.make:87: cmTC_6aa2a] Error 1
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6aa2a/fast] Error 2
+
+
+

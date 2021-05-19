@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="14" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:25:22" time="20.657" name="AllTests">
+  <testsuite name="OriresTest" tests="1" failures="0" disabled="0" errors="0" time="1.98">
+    <testcase name="OriresCanRun" status="run" time="1.98" classname="OriresTest" />
+  </testsuite>
+  <testsuite name="CompelTest" tests="1" failures="0" disabled="0" errors="0" time="4.474">
+    <testcase name="SwapCanRun" status="run" time="4.473" classname="CompelTest" />
+  </testsuite>
+  <testsuite name="BondedInteractionsTest" tests="6" failures="0" disabled="0" errors="0" time="0.017">
+    <testcase name="NormalBondWorks" status="run" time="0.005" classname="BondedInteractionsTest" />
+    <testcase name="TabulatedBondWorks" status="run" time="0.003" classname="BondedInteractionsTest" />
+    <testcase name="NormalAngleWorks" status="run" time="0.002" classname="BondedInteractionsTest" />
+    <testcase name="TabulatedAngleWorks" status="run" time="0.003" classname="BondedInteractionsTest" />
+    <testcase name="NormalDihedralWorks" status="run" time="0.002" classname="BondedInteractionsTest" />
+    <testcase name="TabulatedDihedralWorks" status="run" time="0.002" classname="BondedInteractionsTest" />
+  </testsuite>
+  <testsuite name="EwaldSurfaceTerm/EwaldSurfaceTermTest" tests="3" failures="0" disabled="0" errors="0" time="5.26">
+    <testcase name="WithinTolerances/0" value_param="&quot;3DC&quot;" status="run" time="3.123" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+    <testcase name="WithinTolerances/1" value_param="&quot;epsilon-surface-constraint&quot;" status="run" time="0" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+    <testcase name="WithinTolerances/2" value_param="&quot;epsilon-surface&quot;" status="run" time="2.137" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+  </testsuite>
+  <testsuite name="MultipleTimeSteppingIsNearSingleTimeStepping/MtsComparisonTest" tests="2" failures="0" disabled="0" errors="0" time="5.249">
+    <testcase name="WithinTolerances/0" value_param="(&quot;ala&quot;, &quot;longrange-nonbonded&quot;)" status="run" time="2.649" classname="MultipleTimeSteppingIsNearSingleTimeStepping/MtsComparisonTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;ala&quot;, &quot;longrange-nonbonded nonbonded pair dihedral&quot;)" status="run" time="2.6" classname="MultipleTimeSteppingIsNearSingleTimeStepping/MtsComparisonTest" />
+  </testsuite>
+  <testsuite name="MultipleTimeSteppingIsNearSingleTimeSteppingPull/MtsComparisonTest" tests="1" failures="0" disabled="0" errors="0" time="3.587">
+    <testcase name="WithinTolerances/0" value_param="(&quot;spc2&quot;, &quot;pull&quot;)" status="run" time="3.587" classname="MultipleTimeSteppingIsNearSingleTimeSteppingPull/MtsComparisonTest" />
+  </testsuite>
+</testsuites>

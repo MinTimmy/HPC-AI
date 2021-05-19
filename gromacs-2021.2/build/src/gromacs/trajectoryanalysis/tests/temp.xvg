@@ -1,0 +1,17 @@
+# This file was created Mon May 17 14:23:19 2021
+# Created by:
+#               :-) GROMACS - trajectoryanalysis-test, 2021.2 (-:
+# 
+# Executable:   /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/bin/trajectoryanalysis-test
+# Data prefix:  /home/timmy/myCode/HPC-AI/gromacs-2021.2 (source tree)
+# Working dir:  /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/gromacs/trajectoryanalysis/tests
+# Command line:
+#   trajectoryanalysis-test --gtest_output=xml:/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/Testing/Temporary/TrajectoryAnalysisUnitTests.xml
+# trajectoryanalysis-test is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "Temperature of largest cluster"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "T (K)"
+@TYPE xy

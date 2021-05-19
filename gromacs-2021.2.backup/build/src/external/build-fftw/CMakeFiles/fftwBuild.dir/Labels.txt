@@ -1,0 +1,13 @@
+# Target labels
+ fftwBuild
+# Source files and their labels
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/CMakeFiles/fftwBuild
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/CMakeFiles/fftwBuild.rule
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/CMakeFiles/fftwBuild-complete.rule
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-install.rule
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-mkdir.rule
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-download.rule
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-update.rule
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-patch.rule
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-configure.rule
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-build.rule

@@ -1,0 +1,22 @@
+# This file was created Mon May 17 14:42:31 2021
+# Created by:
+#                      :-) GROMACS - gmx mdrun, 2021.2 (-:
+# 
+# Executable:   /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/bin/gmx
+# Data prefix:  /home/timmy/myCode/HPC-AI/gromacs-2021.2 (source tree)
+# Working dir:  /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/tests/freeenergy/vdwalone
+# Command line:
+#   gmx mdrun -notunepme
+# gmx mdrun is part of G R O M A C S:
+#
+# GROMACS
+#
+@    title "dH/d\xl\f{}"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "dH/d\xl\f{} (kJ/mol [\xl\f{}]\S-1\N)"
+@TYPE xy
+@ subtitle "T = 300 (K) \xl\f{} = 0.2500"
+0.0000 61.129948
+0.0200 68.286736
+0.0400 69.801750
+0.0600 67.797653

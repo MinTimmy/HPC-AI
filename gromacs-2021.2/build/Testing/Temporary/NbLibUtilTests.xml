@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="16" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0" name="AllTests">
+  <testsuite name="NBlibTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="isRealValued" status="run" time="0" classname="NBlibTest" />
+    <testcase name="checkNumericValuesHasNan" status="run" time="0" classname="NBlibTest" />
+    <testcase name="checkNumericValuesHasInf" status="run" time="0" classname="NBlibTest" />
+    <testcase name="GeneratedVelocitiesAreCorrect" status="run" time="0" classname="NBlibTest" />
+    <testcase name="generateVelocitySize" status="run" time="0" classname="NBlibTest" />
+    <testcase name="generateVelocityCheckNumbers" status="run" time="0" classname="NBlibTest" />
+  </testsuite>
+  <testsuite name="NblibTraitsUtils" tests="10" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="FuseTwo" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="Fuse" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="Repeat" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="FindIndexTuple1" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="FindIndexTuple2" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="FindIndexTypeList1" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="FindIndexTypeList2" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="Contains" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="FindIndexTupleRepeated" status="run" time="0" classname="NblibTraitsUtils" />
+    <testcase name="FindIndexTypeListRepeated" status="run" time="0" classname="NblibTraitsUtils" />
+  </testsuite>
+</testsuites>

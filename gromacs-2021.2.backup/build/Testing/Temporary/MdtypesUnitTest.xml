@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.019" name="AllTests">
+  <testsuite name="CheckpointDataTest" tests="2" failures="0" disabled="0" errors="0" time="0.019">
+    <testcase name="SingleDataTest" status="run" time="0.003" classname="CheckpointDataTest" />
+    <testcase name="MultiDataTest" status="run" time="0.016" classname="CheckpointDataTest" />
+  </testsuite>
+  <testsuite name="ForceBuffers" tests="7" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsUnpinned" status="run" time="0" classname="ForceBuffers" />
+    <testcase name="ConstructsPinned" status="run" time="0" classname="ForceBuffers" />
+    <testcase name="ConstructsEmpty" status="run" time="0" classname="ForceBuffers" />
+    <testcase name="ResizeWorks" status="run" time="0" classname="ForceBuffers" />
+    <testcase name="PaddingWorks" status="run" time="0" classname="ForceBuffers" />
+    <testcase name="CopyWorks" status="run" time="0" classname="ForceBuffers" />
+    <testcase name="CopyDoesNotPin" status="run" time="0" classname="ForceBuffers" />
+  </testsuite>
+</testsuites>

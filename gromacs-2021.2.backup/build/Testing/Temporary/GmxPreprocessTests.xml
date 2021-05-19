@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="69" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:06" time="0.76" name="AllTests">
+  <testsuite name="GenconfTest" tests="4" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="nbox_Works" status="run" time="0" classname="GenconfTest" />
+    <testcase name="nbox_norenumber_Works" status="run" time="0" classname="GenconfTest" />
+    <testcase name="nbox_dist_Works" status="run" time="0.001" classname="GenconfTest" />
+    <testcase name="nbox_rot_Works" status="run" time="0" classname="GenconfTest" />
+  </testsuite>
+  <testsuite name="GenionTest" tests="2" failures="0" disabled="0" errors="0" time="0.513">
+    <testcase name="HighConcentrationIonPlacement" status="run" time="0.264" classname="GenionTest" />
+    <testcase name="NoIonPlacement" status="run" time="0.249" classname="GenionTest" />
+  </testsuite>
+  <testsuite name="GenRestrTest" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="SimpleRestraintsGenerated" status="run" time="0.001" classname="GenRestrTest" />
+  </testsuite>
+  <testsuite name="PreprocessingAtomTypesTest" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="EmptyOnCreate" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+    <testcase name="IndexOutOfRangeInvalid" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+    <testcase name="AddTypeWorks" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+    <testcase name="AddMultipleTypesWorks" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+    <testcase name="CannotAddDuplicateEntry" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+    <testcase name="CorrectNameFound" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+    <testcase name="WrongNameNotFound" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+    <testcase name="CorrectNameFromTypeNumber" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+    <testcase name="NoNameFromIncorrectTypeNumber" status="run" time="0" classname="PreprocessingAtomTypesTest" />
+  </testsuite>
+  <testsuite name="PreprocessingBondAtomTypeTest" tests="10" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="EmptyOnCreate" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="IndexOutOfRangeInvalid" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="AddTypeWorks" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="AddMultipleTypesWorks" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="CannotAddDuplicateEntry" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="ReturnsCorrectIndexOnDuplicateType" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="CorrectNameFound" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="WrongNameNotFound" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="CorrectNameFromTypeNumber" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+    <testcase name="NoNameFromIncorrectTypeNumber" status="run" time="0" classname="PreprocessingBondAtomTypeTest" />
+  </testsuite>
+  <testsuite name="InsertMoleculesTest" tests="5" failures="0" disabled="0" errors="0" time="0.007">
+    <testcase name="InsertsMoleculesIntoExistingConfiguration" status="run" time="0.001" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoEmptyBox" status="run" time="0.001" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoEnlargedBox" status="run" time="0.001" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesWithReplacement" status="run" time="0.004" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoFixedPositions" status="run" time="0" classname="InsertMoleculesTest" />
+  </testsuite>
+  <testsuite name="GetIrTest" tests="14" failures="0" disabled="0" errors="0" time="0.024">
+    <testcase name="HandlesDifferentKindsOfMdpLines" status="run" time="0.002" classname="GetIrTest" />
+    <testcase name="RejectsNonCommentLineWithNoEquals" status="run" time="0.003" classname="GetIrTest" />
+    <testcase name="AcceptsKeyWithoutValue" status="run" time="0.001" classname="GetIrTest" />
+    <testcase name="RejectsValueWithoutKey" status="run" time="0.003" classname="GetIrTest" />
+    <testcase name="RejectsEmptyKeyAndEmptyValue" status="run" time="0.002" classname="GetIrTest" />
+    <testcase name="AcceptsDefineParametersWithValuesIncludingAssignment" status="run" time="0.001" classname="GetIrTest" />
+    <testcase name="AcceptsEmptyLines" status="run" time="0.001" classname="GetIrTest" />
+    <testcase name="AcceptsElectricField" status="run" time="0.002" classname="GetIrTest" />
+    <testcase name="AcceptsElectricFieldPulsed" status="run" time="0.001" classname="GetIrTest" />
+    <testcase name="AcceptsElectricFieldOscillating" status="run" time="0.001" classname="GetIrTest" />
+    <testcase name="RejectsDuplicateOldAndNewKeys" status="run" time="0.002" classname="GetIrTest" />
+    <testcase name="AcceptsImplicitSolventNo" status="run" time="0.001" classname="GetIrTest" />
+    <testcase name="RejectsImplicitSolventYes" status="run" time="0.002" classname="GetIrTest" />
+    <testcase name="AcceptsMimic" status="run" time="0.001" classname="GetIrTest" />
+  </testsuite>
+  <testsuite name="SolvateTest" tests="5" failures="0" disabled="0" errors="0" time="0.182">
+    <testcase name="cs_box_Works" status="run" time="0.005" classname="SolvateTest" />
+    <testcase name="cs_cp_Works" status="run" time="0.026" classname="SolvateTest" />
+    <testcase name="cs_cp_p_Works" status="run" time="0.027" classname="SolvateTest" />
+    <testcase name="shell_Works" status="run" time="0.012" classname="SolvateTest" />
+    <testcase name="update_Topology_Works" status="run" time="0.112" classname="SolvateTest" />
+  </testsuite>
+  <testsuite name="TopDirTests" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="NamesArrayHasCorrectSize" status="run" time="0" classname="TopDirTests" />
+  </testsuite>
+  <testsuite name="SinglePeptideFragments/EditconfTest" tests="18" failures="0" disabled="0" errors="0" time="0.031">
+    <testcase name="ProducesMatchingOutputStructureFile/0" value_param="(&quot;fragment1.pdb&quot;, 13)" status="run" time="0.003" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/1" value_param="(&quot;fragment1.pdb&quot;, 11)" status="run" time="0.003" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/2" value_param="(&quot;fragment1.pdb&quot;, 12)" status="run" time="0.003" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/3" value_param="(&quot;fragment1.gro&quot;, 13)" status="run" time="0.002" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/4" value_param="(&quot;fragment1.gro&quot;, 11)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/5" value_param="(&quot;fragment1.gro&quot;, 12)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/6" value_param="(&quot;fragment1.g96&quot;, 13)" status="run" time="0.002" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/7" value_param="(&quot;fragment1.g96&quot;, 11)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFile/8" value_param="(&quot;fragment1.g96&quot;, 12)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/0" value_param="(&quot;fragment1.pdb&quot;, 13)" status="run" time="0.003" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/1" value_param="(&quot;fragment1.pdb&quot;, 11)" status="run" time="0.002" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/2" value_param="(&quot;fragment1.pdb&quot;, 12)" status="run" time="0.003" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/3" value_param="(&quot;fragment1.gro&quot;, 13)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/4" value_param="(&quot;fragment1.gro&quot;, 11)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/5" value_param="(&quot;fragment1.gro&quot;, 12)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/6" value_param="(&quot;fragment1.g96&quot;, 13)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/7" value_param="(&quot;fragment1.g96&quot;, 11)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+    <testcase name="ProducesMatchingOutputStructureFileUsingIndexGroup/8" value_param="(&quot;fragment1.g96&quot;, 12)" status="run" time="0.001" classname="SinglePeptideFragments/EditconfTest" />
+  </testsuite>
+</testsuites>

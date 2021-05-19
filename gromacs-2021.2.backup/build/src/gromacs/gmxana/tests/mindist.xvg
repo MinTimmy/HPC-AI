@@ -1,0 +1,25 @@
+# This file was created Mon May 17 14:23:05 2021
+# Created by:
+#                     :-) GROMACS - gmxana-test, 2021.2 (-:
+# 
+# Executable:   /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/bin/gmxana-test
+# Data prefix:  /home/timmy/myCode/HPC-AI/gromacs-2021.2 (source tree)
+# Working dir:  /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/gromacs/gmxana/tests
+# Command line:
+#   gmxana-test --gtest_output=xml:/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/Testing/Temporary/GmxAnaTest.xml
+# gmxana-test is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "Minimum Distance"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Distance (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "atoms12-atom3"
+0.000000e+00  5.000000e-01

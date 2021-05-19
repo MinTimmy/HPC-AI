@@ -1,0 +1,46 @@
+# This file was created Mon May 17 14:23:06 2021
+# Created by:
+#                     :-) GROMACS - gmxana-test, 2021.2 (-:
+# 
+# Executable:   /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/bin/gmxana-test
+# Data prefix:  /home/timmy/myCode/HPC-AI/gromacs-2021.2 (source tree)
+# Working dir:  /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/src/gromacs/gmxana/tests
+# Command line:
+#   gmxana-test --gtest_output=xml:/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/Testing/Temporary/GmxAnaTest.xml
+# gmxana-test is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Mean Square Displacement"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "MSD (nm\S2\N)"
+@TYPE xy
+# MSD gathered over 0.1 ps with 1 restarts
+# Diffusion constants fitted from time 0.008 to 0.088 ps
+# D[       mol] = 7.8614 (+/- 1.5618) (1e-5 cm^2/s)
+         0           0
+     0.004   5.114e-06
+     0.008  2.29186e-05
+     0.012  4.63612e-05
+     0.016  8.29135e-05
+      0.02  0.000136869
+     0.024  0.000187937
+     0.028  0.000256773
+     0.032  0.000330406
+     0.036  0.000417641
+      0.04  0.000485752
+     0.044  0.000585256
+     0.048  0.000661465
+     0.052  0.000757301
+     0.056  0.000803325
+      0.06  0.000849586
+     0.064  0.000902098
+     0.068  0.00094565
+     0.072  0.00101313
+     0.076  0.00103097
+      0.08   0.0010953
+     0.084  0.00114589
+     0.088  0.00116167
+     0.092  0.00120569
+     0.096  0.00124569
+       0.1  0.00127762

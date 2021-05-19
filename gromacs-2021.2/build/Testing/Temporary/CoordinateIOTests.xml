@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="64" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:19" time="0.095" name="AllTests">
+  <testsuite name="OutputSelectorDeathTest" tests="1" failures="0" disabled="0" errors="0" time="0.003">
+    <testcase name="RejectsBadSelection" status="run" time="0.003" classname="OutputSelectorDeathTest" />
+  </testsuite>
+  <testsuite name="TrajectoryFrameWriterTest" tests="5" failures="0" disabled="0" errors="0" time="0.012">
+    <testcase name="RejectsWrongFiletype" status="run" time="0.003" classname="TrajectoryFrameWriterTest" />
+    <testcase name="BuilderFailsWithPdbAndNoAtoms" status="run" time="0.002" classname="TrajectoryFrameWriterTest" />
+    <testcase name="BuilderFailsWithGroAndNoAtoms" status="run" time="0.002" classname="TrajectoryFrameWriterTest" />
+    <testcase name="BuilderImplictlyAddsAtoms" status="run" time="0.005" classname="TrajectoryFrameWriterTest" />
+    <testcase name="TNGOutputWorks" status="run" time="0" classname="TrajectoryFrameWriterTest" />
+  </testsuite>
+  <testsuite name="OutputAdapterContainer" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeEmpty" status="run" time="0" classname="OutputAdapterContainer" />
+    <testcase name="AddAdapter" status="run" time="0" classname="OutputAdapterContainer" />
+    <testcase name="RejectBadAdapter" status="run" time="0" classname="OutputAdapterContainer" />
+    <testcase name="RejectDuplicateAdapter" status="run" time="0" classname="OutputAdapterContainer" />
+    <testcase name="AcceptMultipleAdapters" status="run" time="0" classname="OutputAdapterContainer" />
+  </testsuite>
+  <testsuite name="FlagTest" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CanSetSimpleFlag" status="run" time="0" classname="FlagTest" />
+    <testcase name="CanAddNewBox" status="run" time="0" classname="FlagTest" />
+    <testcase name="SetsImplicitPrecisionChange" status="run" time="0" classname="FlagTest" />
+    <testcase name="SetsImplicitStartTimeChange" status="run" time="0" classname="FlagTest" />
+    <testcase name="SetsImplicitTimeStepChange" status="run" time="0" classname="FlagTest" />
+  </testsuite>
+  <testsuite name="SetAtomsTest" tests="5" failures="0" disabled="0" errors="0" time="0.012">
+    <testcase name="RemovesExistingAtoms" status="run" time="0.003" classname="SetAtomsTest" />
+    <testcase name="AddsNewAtoms" status="run" time="0.002" classname="SetAtomsTest" />
+    <testcase name="ThrowsOnRequiredAtomsNotAvailable" status="run" time="0.002" classname="SetAtomsTest" />
+    <testcase name="WillUseOldAtomsWhenNoNewAvailable" status="run" time="0.003" classname="SetAtomsTest" />
+    <testcase name="ThrowsWhenUserAtomReplacementNotPossible" status="run" time="0.002" classname="SetAtomsTest" />
+  </testsuite>
+  <testsuite name="SetBothTimeTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="StartTimeZeroWorks" status="run" time="0" classname="SetBothTimeTest" />
+    <testcase name="SetStartTimeNonZeroWorks" status="run" time="0" classname="SetBothTimeTest" />
+  </testsuite>
+  <testsuite name="SetStartTimeTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="WorksWithNonZeroStart" status="run" time="0" classname="SetStartTimeTest" />
+    <testcase name="WorksWithZeroStart" status="run" time="0" classname="SetStartTimeTest" />
+  </testsuite>
+  <testsuite name="SetTimeStepTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="SetTimeStepWorks" status="run" time="0" classname="SetTimeStepTest" />
+  </testsuite>
+  <testsuite name="CoordinateFileFileFormats/TrajectoryFrameWriterTest" tests="6" failures="0" disabled="0" errors="0" time="0.015">
+    <testcase name="WorksWithFormats/0" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0.003" classname="CoordinateFileFileFormats/TrajectoryFrameWriterTest" />
+    <testcase name="WorksWithFormats/1" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.002" classname="CoordinateFileFileFormats/TrajectoryFrameWriterTest" />
+    <testcase name="WorksWithFormats/2" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0.002" classname="CoordinateFileFileFormats/TrajectoryFrameWriterTest" />
+    <testcase name="WorksWithFormats/3" value_param="&quot;spc2-traj.pdb&quot;" status="run" time="0.003" classname="CoordinateFileFileFormats/TrajectoryFrameWriterTest" />
+    <testcase name="WorksWithFormats/4" value_param="&quot;spc2-traj.gro&quot;" status="run" time="0.002" classname="CoordinateFileFileFormats/TrajectoryFrameWriterTest" />
+    <testcase name="WorksWithFormats/5" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0.003" classname="CoordinateFileFileFormats/TrajectoryFrameWriterTest" />
+  </testsuite>
+  <testsuite name="ModuleSupported/SetAtomsSupportedFiles" tests="3" failures="0" disabled="0" errors="0" time="0.007">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.002" classname="ModuleSupported/SetAtomsSupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.gro&quot;" status="run" time="0.002" classname="ModuleSupported/SetAtomsSupportedFiles" />
+    <testcase name="Works/2" value_param="&quot;spc2-traj.pdb&quot;" status="run" time="0.003" classname="ModuleSupported/SetAtomsSupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleUnSupported/SetAtomsUnSupportedFiles" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0" classname="ModuleUnSupported/SetAtomsUnSupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0" classname="ModuleUnSupported/SetAtomsUnSupportedFiles" />
+    <testcase name="Works/2" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0" classname="ModuleUnSupported/SetAtomsUnSupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleSupported/AnyOutputSupportedFiles" tests="4" failures="0" disabled="0" errors="0" time="0.02">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0.005" classname="ModuleSupported/AnyOutputSupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.005" classname="ModuleSupported/AnyOutputSupportedFiles" />
+    <testcase name="Works/2" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0.005" classname="ModuleSupported/AnyOutputSupportedFiles" />
+    <testcase name="Works/3" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0.005" classname="ModuleSupported/AnyOutputSupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleSupported/SetVelocitySupportedFiles" tests="3" failures="0" disabled="0" errors="0" time="0.007">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.002" classname="ModuleSupported/SetVelocitySupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.gro&quot;" status="run" time="0.002" classname="ModuleSupported/SetVelocitySupportedFiles" />
+    <testcase name="Works/2" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0.003" classname="ModuleSupported/SetVelocitySupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleUnSupported/SetVelocityUnSupportedFiles" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0" classname="ModuleUnSupported/SetVelocityUnSupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.pdb&quot;" status="run" time="0" classname="ModuleUnSupported/SetVelocityUnSupportedFiles" />
+    <testcase name="Works/2" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0" classname="ModuleUnSupported/SetVelocityUnSupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleSupported/SetForceSupportedFiles" tests="2" failures="0" disabled="0" errors="0" time="0.005">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.002" classname="ModuleSupported/SetForceSupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0.003" classname="ModuleSupported/SetForceSupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleUnSupported/SetForceUnSupportedFiles" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0" classname="ModuleUnSupported/SetForceUnSupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.pdb&quot;" status="run" time="0" classname="ModuleUnSupported/SetForceUnSupportedFiles" />
+    <testcase name="Works/2" value_param="&quot;spc2-traj.gro&quot;" status="run" time="0" classname="ModuleUnSupported/SetForceUnSupportedFiles" />
+    <testcase name="Works/3" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0" classname="ModuleUnSupported/SetForceUnSupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleSupported/SetPrecisionSupportedFiles" tests="2" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.002" classname="ModuleSupported/SetPrecisionSupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0.002" classname="ModuleSupported/SetPrecisionSupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleUnSupported/SetPrecisionUnSupportedFiles" tests="4" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0" classname="ModuleUnSupported/SetPrecisionUnSupportedFiles" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.pdb&quot;" status="run" time="0" classname="ModuleUnSupported/SetPrecisionUnSupportedFiles" />
+    <testcase name="Works/2" value_param="&quot;spc2-traj.gro&quot;" status="run" time="0" classname="ModuleUnSupported/SetPrecisionUnSupportedFiles" />
+    <testcase name="Works/3" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0.001" classname="ModuleUnSupported/SetPrecisionUnSupportedFiles" />
+  </testsuite>
+  <testsuite name="ModuleSupported/NoOptionalOutput" tests="4" failures="0" disabled="0" errors="0" time="0.009">
+    <testcase name="Works/0" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0.002" classname="ModuleSupported/NoOptionalOutput" />
+    <testcase name="Works/1" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.002" classname="ModuleSupported/NoOptionalOutput" />
+    <testcase name="Works/2" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0.003" classname="ModuleSupported/NoOptionalOutput" />
+    <testcase name="Works/3" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0.002" classname="ModuleSupported/NoOptionalOutput" />
+  </testsuite>
+</testsuites>

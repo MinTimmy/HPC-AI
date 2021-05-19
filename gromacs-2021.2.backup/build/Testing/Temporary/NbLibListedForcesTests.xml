@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="23" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.001" name="AllTests">
+  <testsuite name="NBlibTest" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="BondTypesOperatorEqualWorks" status="run" time="0" classname="NBlibTest" />
+    <testcase name="BondTypesLessThanWorks" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanSplitListedWork" status="run" time="0" classname="NBlibTest" />
+    <testcase name="ListedForceBuffer" status="run" time="0" classname="NBlibTest" />
+    <testcase name="ListedForceCalculatorCanConstruct" status="run" time="0" classname="NBlibTest" />
+  </testsuite>
+  <testsuite name="Kernels" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HarmonicScalarKernelCanCompute" status="run" time="0" classname="Kernels" />
+  </testsuite>
+  <testsuite name="ListedExampleData" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ComputeHarmonicBondForces" status="run" time="0" classname="ListedExampleData" />
+    <testcase name="ComputeHarmonicBondEnergies" status="run" time="0" classname="ListedExampleData" />
+    <testcase name="ComputeHarmonicAngleForces" status="run" time="0" classname="ListedExampleData" />
+    <testcase name="CanReduceForces" status="run" time="0" classname="ListedExampleData" />
+    <testcase name="CanReduceEnergies" status="run" time="0" classname="ListedExampleData" />
+  </testsuite>
+  <testsuite name="LinearChainDataFixture" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="Multithreading" status="run" time="0.001" classname="LinearChainDataFixture" />
+  </testsuite>
+  <testsuite name="ListedShims" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ParameterConversion" status="run" time="0" classname="ListedShims" />
+  </testsuite>
+  <testsuite name="ListedTransformations" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="SortInteractionIndices" status="run" time="0" classname="ListedTransformations" />
+  </testsuite>
+  <testsuite name="FourCenter/ProperDihedralTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CheckListed/0" value_param="({ 12-byte object &lt;7F-92 EA-BF 00-00 70-41 02-00 00-00&gt; }, { 12-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00&gt;, 12-byte object &lt;00-00 00-00 00-00 00-00 CD-CC 4C-3E&gt;, 12-byte object &lt;0A-D7 A3-3B 00-00 00-00 CD-CC CC-3D&gt;, 12-byte object &lt;6F-12 83-BA CD-CC CC-3D 00-00 00-00&gt; })" status="run" time="0" classname="FourCenter/ProperDihedralTest" />
+    <testcase name="CheckListed/1" value_param="({ 12-byte object &lt;7F-92 EA-BF 00-00 70-41 02-00 00-00&gt; }, { 12-byte object &lt;00-00 00-3F 00-00 00-00 00-00 00-00&gt;, 12-byte object &lt;00-00 00-3F 00-00 00-00 9A-99 19-3E&gt;, 12-byte object &lt;00-00 00-3F 29-5C 8F-3D AE-47 61-3E&gt;, 12-byte object &lt;00-00 00-3F EC-51 38-3E AE-47 61-3E&gt; })" status="run" time="0" classname="FourCenter/ProperDihedralTest" />
+    <testcase name="CheckListed/2" value_param="({ 12-byte object &lt;7F-92 EA-BF 00-00 70-41 02-00 00-00&gt; }, { 12-byte object &lt;1E-16 EA-BD B0-03 E7-BC 00-00 00-00&gt;, 12-byte object &lt;00-00 00-00 33-C4 31-3D 00-00 00-00&gt;, 12-byte object &lt;21-B0 F2-3D 65-19 62-BC 00-00 00-00&gt;, 12-byte object &lt;77-BE 9F-BC 2C-65 19-3E 00-00 00-00&gt; })" status="run" time="0" classname="FourCenter/ProperDihedralTest" />
+  </testsuite>
+  <testsuite name="TwoCenter/HarmonicBondTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CheckListed/0" value_param="({ 8-byte object &lt;00-00 FA-43 9A-99 19-3E&gt; }, { 12-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00&gt;, 12-byte object &lt;00-00 00-00 00-00 00-00 CD-CC 4C-3E&gt;, 12-byte object &lt;0A-D7 A3-3B 00-00 00-00 CD-CC CC-3D&gt;, 12-byte object &lt;6F-12 83-BA CD-CC CC-3D 00-00 00-00&gt; })" status="run" time="0" classname="TwoCenter/HarmonicBondTest" />
+    <testcase name="CheckListed/1" value_param="({ 8-byte object &lt;00-00 FA-43 9A-99 19-3E&gt; }, { 12-byte object &lt;00-00 00-3F 00-00 00-00 00-00 00-00&gt;, 12-byte object &lt;00-00 00-3F 00-00 00-00 9A-99 19-3E&gt;, 12-byte object &lt;00-00 00-3F 29-5C 8F-3D AE-47 61-3E&gt;, 12-byte object &lt;00-00 00-3F EC-51 38-3E AE-47 61-3E&gt; })" status="run" time="0" classname="TwoCenter/HarmonicBondTest" />
+    <testcase name="CheckListed/2" value_param="({ 8-byte object &lt;00-00 FA-43 9A-99 19-3E&gt; }, { 12-byte object &lt;1E-16 EA-BD B0-03 E7-BC 00-00 00-00&gt;, 12-byte object &lt;00-00 00-00 33-C4 31-3D 00-00 00-00&gt;, 12-byte object &lt;21-B0 F2-3D 65-19 62-BC 00-00 00-00&gt;, 12-byte object &lt;77-BE 9F-BC 2C-65 19-3E 00-00 00-00&gt; })" status="run" time="0" classname="TwoCenter/HarmonicBondTest" />
+  </testsuite>
+  <testsuite name="ThreeCenter/HarmonicAngleTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CheckListed/0" value_param="({ 8-byte object &lt;00-00 48-42 F3-66 DF-3F&gt; }, { 12-byte object &lt;00-00 00-00 00-00 00-00 00-00 00-00&gt;, 12-byte object &lt;00-00 00-00 00-00 00-00 CD-CC 4C-3E&gt;, 12-byte object &lt;0A-D7 A3-3B 00-00 00-00 CD-CC CC-3D&gt;, 12-byte object &lt;6F-12 83-BA CD-CC CC-3D 00-00 00-00&gt; })" status="run" time="0" classname="ThreeCenter/HarmonicAngleTest" />
+    <testcase name="CheckListed/1" value_param="({ 8-byte object &lt;00-00 48-42 F3-66 DF-3F&gt; }, { 12-byte object &lt;00-00 00-3F 00-00 00-00 00-00 00-00&gt;, 12-byte object &lt;00-00 00-3F 00-00 00-00 9A-99 19-3E&gt;, 12-byte object &lt;00-00 00-3F 29-5C 8F-3D AE-47 61-3E&gt;, 12-byte object &lt;00-00 00-3F EC-51 38-3E AE-47 61-3E&gt; })" status="run" time="0" classname="ThreeCenter/HarmonicAngleTest" />
+    <testcase name="CheckListed/2" value_param="({ 8-byte object &lt;00-00 48-42 F3-66 DF-3F&gt; }, { 12-byte object &lt;1E-16 EA-BD B0-03 E7-BC 00-00 00-00&gt;, 12-byte object &lt;00-00 00-00 33-C4 31-3D 00-00 00-00&gt;, 12-byte object &lt;21-B0 F2-3D 65-19 62-BC 00-00 00-00&gt;, 12-byte object &lt;77-BE 9F-BC 2C-65 19-3E 00-00 00-00&gt; })" status="run" time="0" classname="ThreeCenter/HarmonicAngleTest" />
+  </testsuite>
+</testsuites>

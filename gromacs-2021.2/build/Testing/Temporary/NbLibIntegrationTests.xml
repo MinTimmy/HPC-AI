@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="19" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.003" name="AllTests">
+  <testsuite name="NBlibTest" tests="19" failures="0" disabled="0" errors="0" time="0.003">
+    <testcase name="GmxForceCalculatorCanCompute" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanSetupStepWorkload" status="run" time="0.001" classname="NBlibTest" />
+    <testcase name="GmxForceCalculatorCanSetupInteractionConst" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SpcMethanolForcesAreCorrect" status="run" time="0" classname="NBlibTest" />
+    <testcase name="ExpectedNumberOfForces" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanIntegrateSystem" status="run" time="0.001" classname="NBlibTest" />
+    <testcase name="UpdateChangesForces" status="run" time="0" classname="NBlibTest" />
+    <testcase name="ArgonForcesAreCorrect" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanConstructNbvSetupUtil" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanConstructSimulationState" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SimulationStateThrowsCoordinateNAN" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SimulationStateThrowsCoordinateINF" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SimulationStateThrowsVelocityNAN" status="run" time="0.001" classname="NBlibTest" />
+    <testcase name="SimulationStateThrowsVelocityINF" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SimulationStateCanMove" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SimulationStateCanAssign" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SimulationStateHasBox" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SimulationStateHasCorrectCoordinates" status="run" time="0" classname="NBlibTest" />
+    <testcase name="SimulationStateHasCorrectVelocities" status="run" time="0" classname="NBlibTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,1943 @@
+The system is: Linux - 5.8.0-53-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81d4b/fast && /usr/bin/make -f CMakeFiles/cmTC_81d4b.dir/build.make CMakeFiles/cmTC_81d4b.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81d4b.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_81d4b.dir/testCCompiler.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_81d4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81d4b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_81d4b.dir/testCCompiler.c.o  -o cmTC_81d4b 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1bdc5/fast && /usr/bin/make -f CMakeFiles/cmTC_1bdc5.dir/build.make CMakeFiles/cmTC_1bdc5.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEO57YG.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o /tmp/ccEO57YG.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_1bdc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bdc5.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o  -o cmTC_1bdc5 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bdc5' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGhGAM9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1bdc5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bdc5' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1bdc5/fast && /usr/bin/make -f CMakeFiles/cmTC_1bdc5.dir/build.make CMakeFiles/cmTC_1bdc5.dir/build]
+  ignore line: [make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEO57YG.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o /tmp/ccEO57YG.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_1bdc5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bdc5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o  -o cmTC_1bdc5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bdc5' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGhGAM9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1bdc5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGhGAM9.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1bdc5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_1bdc5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98718/fast && /usr/bin/make -f CMakeFiles/cmTC_98718.dir/build.make CMakeFiles/cmTC_98718.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98718.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_98718.dir/testCXXCompiler.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_98718
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98718.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_98718.dir/testCXXCompiler.cxx.o  -o cmTC_98718 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aeda2/fast && /usr/bin/make -f CMakeFiles/cmTC_aeda2.dir/build.make CMakeFiles/cmTC_aeda2.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccP8hgsH.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccP8hgsH.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_aeda2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeda2.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aeda2 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aeda2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cctUoUG5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_aeda2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aeda2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_aeda2/fast && /usr/bin/make -f CMakeFiles/cmTC_aeda2.dir/build.make CMakeFiles/cmTC_aeda2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccP8hgsH.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccP8hgsH.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_aeda2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeda2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aeda2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aeda2' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cctUoUG5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_aeda2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctUoUG5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aeda2] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_aeda2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18cbc/fast && /usr/bin/make -f CMakeFiles/cmTC_18cbc.dir/build.make CMakeFiles/cmTC_18cbc.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbbYAG7.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o /tmp/ccbbYAG7.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_18cbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18cbc.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o  -o cmTC_18cbc  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_18cbc' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cclayxqD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_18cbc /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_18cbc' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_18cbc/fast && /usr/bin/make -f CMakeFiles/cmTC_18cbc.dir/build.make CMakeFiles/cmTC_18cbc.dir/build]
+  ignore line: [make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbbYAG7.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o /tmp/ccbbYAG7.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_18cbc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18cbc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o  -o cmTC_18cbc  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_18cbc' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cclayxqD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_18cbc /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclayxqD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_18cbc] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_18cbc.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a70d5/fast && /usr/bin/make -f CMakeFiles/cmTC_a70d5.dir/build.make CMakeFiles/cmTC_a70d5.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++    -fopenmp -v   -std=c++17 -o CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++17' '-o' 'CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o -std=c++17 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccROyTq6.s
+GNU C++17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++17' '-o' 'CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o /tmp/ccROyTq6.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++17' '-o' 'CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_a70d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a70d5.dir/link.txt --verbose=1
+/usr/bin/c++   -fopenmp -v    CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o  -o cmTC_a70d5  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_a70d5' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuHeBAy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a70d5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_a70d5' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_a70d5/fast && /usr/bin/make -f CMakeFiles/cmTC_a70d5.dir/build.make CMakeFiles/cmTC_a70d5.dir/build]
+  ignore line: [make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++    -fopenmp -v   -std=c++17 -o CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++17' '-o' 'CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o -std=c++17 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccROyTq6.s]
+  ignore line: [GNU C++17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++17' '-o' 'CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o /tmp/ccROyTq6.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++17' '-o' 'CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_a70d5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a70d5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -fopenmp -v    CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o  -o cmTC_a70d5  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_a70d5' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuHeBAy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a70d5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuHeBAy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a70d5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_a70d5.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CFLAGS_WARN_NO_MISSING_FIELD_INITIALIZERS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e08e4/fast && /usr/bin/make -f CMakeFiles/cmTC_e08e4.dir/build.make CMakeFiles/cmTC_e08e4.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e08e4.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN_NO_MISSING_FIELD_INITIALIZERS   -Wno-missing-field-initializers -o CMakeFiles/cmTC_e08e4.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e08e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e08e4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_WARN_NO_MISSING_FIELD_INITIALIZERS    CMakeFiles/cmTC_e08e4.dir/src.c.o  -o cmTC_e08e4 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_EXCESS_PREC succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38775/fast && /usr/bin/make -f CMakeFiles/cmTC_38775.dir/build.make CMakeFiles/cmTC_38775.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38775.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_EXCESS_PREC   -fexcess-precision=fast -o CMakeFiles/cmTC_38775.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_38775
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38775.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_EXCESS_PREC    CMakeFiles/cmTC_38775.dir/src.c.o  -o cmTC_38775 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_COPT succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_792b8/fast && /usr/bin/make -f CMakeFiles/cmTC_792b8.dir/build.make CMakeFiles/cmTC_792b8.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_792b8.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_COPT   -funroll-all-loops -o CMakeFiles/cmTC_792b8.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_792b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_792b8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_COPT    CMakeFiles/cmTC_792b8.dir/src.c.o  -o cmTC_792b8 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_NOINLINE succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49d48/fast && /usr/bin/make -f CMakeFiles/cmTC_49d48.dir/build.make CMakeFiles/cmTC_49d48.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49d48.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_NOINLINE   -fno-inline -o CMakeFiles/cmTC_49d48.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_49d48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d48.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_NOINLINE    CMakeFiles/cmTC_49d48.dir/src.c.o  -o cmTC_49d48 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_NO_MISSING_FIELD_INITIALIZERS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29aad/fast && /usr/bin/make -f CMakeFiles/cmTC_29aad.dir/build.make CMakeFiles/cmTC_29aad.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_29aad.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_WARN_NO_MISSING_FIELD_INITIALIZERS   -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/cmTC_29aad.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_29aad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29aad.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_WARN_NO_MISSING_FIELD_INITIALIZERS    CMakeFiles/cmTC_29aad.dir/src.cxx.o  -o cmTC_29aad 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_EXCESS_PREC succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63280/fast && /usr/bin/make -f CMakeFiles/cmTC_63280.dir/build.make CMakeFiles/cmTC_63280.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63280.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_EXCESS_PREC   -fexcess-precision=fast -std=c++17 -o CMakeFiles/cmTC_63280.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_63280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63280.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_EXCESS_PREC    CMakeFiles/cmTC_63280.dir/src.cxx.o  -o cmTC_63280 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_COPT succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0f30/fast && /usr/bin/make -f CMakeFiles/cmTC_a0f30.dir/build.make CMakeFiles/cmTC_a0f30.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0f30.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_COPT   -funroll-all-loops -std=c++17 -o CMakeFiles/cmTC_a0f30.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a0f30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0f30.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_COPT    CMakeFiles/cmTC_a0f30.dir/src.cxx.o  -o cmTC_a0f30 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_NOINLINE succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1c7b/fast && /usr/bin/make -f CMakeFiles/cmTC_f1c7b.dir/build.make CMakeFiles/cmTC_f1c7b.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1c7b.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_NOINLINE   -fno-inline -std=c++17 -o CMakeFiles/cmTC_f1c7b.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f1c7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1c7b.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_NOINLINE    CMakeFiles/cmTC_f1c7b.dir/src.cxx.o  -o cmTC_f1c7b 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fed4c/fast && /usr/bin/make -f CMakeFiles/cmTC_fed4c.dir/build.make CMakeFiles/cmTC_fed4c.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fed4c.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fed4c.dir/HAVE_UNISTD_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_fed4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fed4c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_fed4c.dir/HAVE_UNISTD_H.c.o  -o cmTC_fed4c 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1df3a/fast && /usr/bin/make -f CMakeFiles/cmTC_1df3a.dir/build.make CMakeFiles/cmTC_1df3a.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1df3a.dir/HAVE_PWD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1df3a.dir/HAVE_PWD_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_PWD_H.c
+Linking C executable cmTC_1df3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1df3a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1df3a.dir/HAVE_PWD_H.c.o  -o cmTC_1df3a 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_66e69/fast && /usr/bin/make -f CMakeFiles/cmTC_66e69.dir/build.make CMakeFiles/cmTC_66e69.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66e69.dir/HAVE_DIRENT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_66e69.dir/HAVE_DIRENT_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_DIRENT_H.c
+Linking C executable cmTC_66e69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66e69.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_66e69.dir/HAVE_DIRENT_H.c.o  -o cmTC_66e69 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d630/fast && /usr/bin/make -f CMakeFiles/cmTC_5d630.dir/build.make CMakeFiles/cmTC_5d630.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d630.dir/HAVE_TIME_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d630.dir/HAVE_TIME_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
+Linking C executable cmTC_5d630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d630.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5d630.dir/HAVE_TIME_H.c.o  -o cmTC_5d630 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f4ef/fast && /usr/bin/make -f CMakeFiles/cmTC_7f4ef.dir/build.make CMakeFiles/cmTC_7f4ef.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f4ef.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7f4ef.dir/HAVE_SYS_TIME_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_7f4ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f4ef.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7f4ef.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_7f4ef 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_05e0e/fast && /usr/bin/make -f CMakeFiles/cmTC_05e0e.dir/build.make CMakeFiles/cmTC_05e0e.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05e0e.dir/HAVE_SCHED_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_05e0e.dir/HAVE_SCHED_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_SCHED_H.c
+Linking C executable cmTC_05e0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05e0e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_05e0e.dir/HAVE_SCHED_H.c.o  -o cmTC_05e0e 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files xmmintrin.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d115/fast && /usr/bin/make -f CMakeFiles/cmTC_5d115.dir/build.make CMakeFiles/cmTC_5d115.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d115.dir/HAVE_XMMINTRIN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d115.dir/HAVE_XMMINTRIN_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_XMMINTRIN_H.c
+Linking C executable cmTC_5d115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d115.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5d115.dir/HAVE_XMMINTRIN_H.c.o  -o cmTC_5d115 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_294d8/fast && /usr/bin/make -f CMakeFiles/cmTC_294d8.dir/build.make CMakeFiles/cmTC_294d8.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_294d8.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_294d8.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_294d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_294d8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_294d8.dir/CheckSymbolExists.cxx.o  -o cmTC_294d8 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0056/fast && /usr/bin/make -f CMakeFiles/cmTC_a0056.dir/build.make CMakeFiles/cmTC_a0056.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0056.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_a0056.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a0056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0056.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a0056.dir/CheckSymbolExists.cxx.o  -o cmTC_a0056 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nice exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c005/fast && /usr/bin/make -f CMakeFiles/cmTC_9c005.dir/build.make CMakeFiles/cmTC_9c005.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c005.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_9c005.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_9c005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c005.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9c005.dir/CheckSymbolExists.cxx.o  -o cmTC_9c005 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nice
+  return ((int*)(&nice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fsync exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e52e2/fast && /usr/bin/make -f CMakeFiles/cmTC_e52e2.dir/build.make CMakeFiles/cmTC_e52e2.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e52e2.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_e52e2.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_e52e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e52e2.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e52e2.dir/CheckSymbolExists.cxx.o  -o cmTC_e52e2 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fileno exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_23f32/fast && /usr/bin/make -f CMakeFiles/cmTC_23f32.dir/build.make CMakeFiles/cmTC_23f32.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23f32.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_23f32.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_23f32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23f32.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_23f32.dir/CheckSymbolExists.cxx.o  -o cmTC_23f32 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fileno
+  return ((int*)(&fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8bcd/fast && /usr/bin/make -f CMakeFiles/cmTC_d8bcd.dir/build.make CMakeFiles/cmTC_d8bcd.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8bcd.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_d8bcd.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d8bcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8bcd.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d8bcd.dir/CheckSymbolExists.cxx.o  -o cmTC_d8bcd 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_BUILTIN_CLZ succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1589e/fast && /usr/bin/make -f CMakeFiles/cmTC_1589e.dir/build.make CMakeFiles/cmTC_1589e.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1589e.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_BUILTIN_CLZ   -std=c++17 -o CMakeFiles/cmTC_1589e.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1589e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1589e.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_BUILTIN_CLZ    CMakeFiles/cmTC_1589e.dir/src.cxx.o  -o cmTC_1589e 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(){ return __builtin_clz(1);}
+Performing C++ SOURCE FILE Test HAVE_BUILTIN_CLZLL succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ac6d/fast && /usr/bin/make -f CMakeFiles/cmTC_8ac6d.dir/build.make CMakeFiles/cmTC_8ac6d.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ac6d.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_BUILTIN_CLZLL   -std=c++17 -o CMakeFiles/cmTC_8ac6d.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8ac6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ac6d.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_BUILTIN_CLZLL    CMakeFiles/cmTC_8ac6d.dir/src.cxx.o  -o cmTC_8ac6d 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(){ return __builtin_clzll(1);}
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d193a/fast && /usr/bin/make -f CMakeFiles/cmTC_d193a.dir/build.make CMakeFiles/cmTC_d193a.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d193a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_d193a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d193a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d193a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_d193a.dir/CheckFunctionExists.c.o  -o cmTC_d193a  -lrt 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function feenableexcept exists in the m passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8b6a9/fast && /usr/bin/make -f CMakeFiles/cmTC_8b6a9.dir/build.make CMakeFiles/cmTC_8b6a9.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b6a9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=feenableexcept   -o CMakeFiles/cmTC_8b6a9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b6a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b6a9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=feenableexcept    CMakeFiles/cmTC_8b6a9.dir/CheckFunctionExists.c.o  -o cmTC_8b6a9  -lm 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fedisableexcept exists in the m passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1dfd/fast && /usr/bin/make -f CMakeFiles/cmTC_e1dfd.dir/build.make CMakeFiles/cmTC_e1dfd.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1dfd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fedisableexcept   -o CMakeFiles/cmTC_e1dfd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e1dfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1dfd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fedisableexcept    CMakeFiles/cmTC_e1dfd.dir/CheckFunctionExists.c.o  -o cmTC_e1dfd  -lm 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test sched_affinity_compile succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91a79/fast && /usr/bin/make -f CMakeFiles/cmTC_91a79.dir/build.make CMakeFiles/cmTC_91a79.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91a79.dir/src.c.o
+/usr/bin/cc   -Dsched_affinity_compile   -o CMakeFiles/cmTC_91a79.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_91a79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91a79.dir/link.txt --verbose=1
+/usr/bin/cc  -Dsched_affinity_compile    CMakeFiles/cmTC_91a79.dir/src.c.o  -o cmTC_91a79 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif
+#include <sched.h>
+int main(void) {
+  int i;
+  cpu_set_t mask;
+  CPU_ZERO(&mask);
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  if(CPU_ISSET(0,&mask))
+  {
+    CPU_CLR(0,&mask);
+    CPU_SET(0,&mask);
+  }
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  return CPU_COUNT(&mask);
+}
+Determining if files mm_malloc.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_03c66/fast && /usr/bin/make -f CMakeFiles/cmTC_03c66.dir/build.make CMakeFiles/cmTC_03c66.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03c66.dir/HAVE_MM_MALLOC_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_03c66.dir/HAVE_MM_MALLOC_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_MM_MALLOC_H.c
+Linking C executable cmTC_03c66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03c66.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_03c66.dir/HAVE_MM_MALLOC_H.c.o  -o cmTC_03c66 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f2ee/fast && /usr/bin/make -f CMakeFiles/cmTC_7f2ee.dir/build.make CMakeFiles/cmTC_7f2ee.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f2ee.dir/HAVE_MALLOC_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7f2ee.dir/HAVE_MALLOC_H.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+Linking C executable cmTC_7f2ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f2ee.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7f2ee.dir/HAVE_MALLOC_H.c.o  -o cmTC_7f2ee 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63221/fast && /usr/bin/make -f CMakeFiles/cmTC_63221.dir/build.make CMakeFiles/cmTC_63221.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63221.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_63221.dir/CheckSymbolExists.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_63221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63221.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_63221.dir/CheckSymbolExists.cxx.o  -o cmTC_63221 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f890/fast && /usr/bin/make -f CMakeFiles/cmTC_2f890.dir/build.make CMakeFiles/cmTC_2f890.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f890.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2f890.dir/CheckIncludeFile.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2f890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f890.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2f890.dir/CheckIncludeFile.c.o  -o cmTC_2f890 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6df98/fast && /usr/bin/make -f CMakeFiles/cmTC_6df98.dir/build.make CMakeFiles/cmTC_6df98.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6df98.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6df98.dir/CheckIncludeFile.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6df98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6df98.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6df98.dir/CheckIncludeFile.c.o  -o cmTC_6df98 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02628/fast && /usr/bin/make -f CMakeFiles/cmTC_02628.dir/build.make CMakeFiles/cmTC_02628.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02628.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_02628.dir/CheckIncludeFile.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_02628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02628.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_02628.dir/CheckIncludeFile.c.o  -o cmTC_02628 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b1bc0/fast && /usr/bin/make -f CMakeFiles/cmTC_b1bc0.dir/build.make CMakeFiles/cmTC_b1bc0.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1bc0.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b1bc0.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_b1bc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1bc0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b1bc0.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_b1bc0 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f21c6/fast && /usr/bin/make -f CMakeFiles/cmTC_f21c6.dir/build.make CMakeFiles/cmTC_f21c6.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f21c6.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f21c6.dir/TestEndianess.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_f21c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f21c6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f21c6.dir/TestEndianess.c.o  -o cmTC_f21c6 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c96fb/fast && /usr/bin/make -f CMakeFiles/cmTC_c96fb.dir/build.make CMakeFiles/cmTC_c96fb.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c96fb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c96fb.dir/CheckIncludeFile.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c96fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c96fb.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c96fb.dir/CheckIncludeFile.c.o  -o cmTC_c96fb 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8e453/fast && /usr/bin/make -f CMakeFiles/cmTC_8e453.dir/build.make CMakeFiles/cmTC_8e453.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e453.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8e453.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8e453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e453.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8e453.dir/CheckFunctionExists.c.o  -o cmTC_8e453  -lpthread 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_935ac/fast && /usr/bin/make -f CMakeFiles/cmTC_935ac.dir/build.make CMakeFiles/cmTC_935ac.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_935ac.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_935ac.dir/CheckIncludeFile.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_935ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_935ac.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_935ac.dir/CheckIncludeFile.cxx.o  -o cmTC_935ac 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test TEST_ATOMICS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa426/fast && /usr/bin/make -f CMakeFiles/cmTC_fa426.dir/build.make CMakeFiles/cmTC_fa426.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa426.dir/src.cxx.o
+/usr/bin/c++   -I/home/timmy/myCode/HPC-AI/gromacs-2021.2/src/external/thread_mpi/include  -DTEST_ATOMICS   -std=c++17 -o CMakeFiles/cmTC_fa426.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fa426
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa426.dir/link.txt --verbose=1
+/usr/bin/c++   -DTEST_ATOMICS    CMakeFiles/cmTC_fa426.dir/src.cxx.o  -o cmTC_fa426 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+// Set a define that forces a compilation error if this platform
+// is not yet supported.
+#define TMPI_CHECK_ATOMICS
+
+// Include the portable atomics implementation to test
+#include "thread_mpi/atomic.h"
+
+int main(void)
+{
+    int i;
+    void *ptr;
+    tMPI_Atomic_t some_atomic;
+    tMPI_Atomic_ptr_t *some_atomic_ptr = NULL;
+    tMPI_Spinlock_t some_spinlock;
+
+    /* Make the compiler actually emit code for these functions, so
+       that things like inability to emit inline assembly get
+       tested. It is not expected that the code below can run. */
+    tMPI_Atomic_memory_barrier();
+    tMPI_Atomic_memory_barrier_acq();
+    tMPI_Atomic_memory_barrier_rel();
+    tMPI_Atomic_set(&some_atomic, 0);
+    i   = tMPI_Atomic_get(&some_atomic);
+    ptr = tMPI_Atomic_ptr_get(some_atomic_ptr);
+    tMPI_Atomic_ptr_set(some_atomic_ptr, ptr);
+    tMPI_Atomic_add_return(&some_atomic, 0);
+    tMPI_Atomic_fetch_add(&some_atomic, 0);
+    tMPI_Atomic_cas(&some_atomic, 0, 1);
+    tMPI_Atomic_ptr_cas(some_atomic_ptr, ptr, ptr);
+    tMPI_Atomic_swap(&some_atomic, 0);
+    tMPI_Atomic_ptr_swap(some_atomic_ptr, ptr);
+    tMPI_Spinlock_init(&some_spinlock);
+    tMPI_Spinlock_lock(&some_spinlock);
+    tMPI_Spinlock_trylock(&some_spinlock);
+    tMPI_Spinlock_unlock(&some_spinlock);
+    tMPI_Spinlock_islocked(&some_spinlock);
+    tMPI_Spinlock_wait(&some_spinlock);
+    return 0;
+}
+Performing C++ SOURCE FILE Test PTHREAD_SETAFFINITY succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_69bec/fast && /usr/bin/make -f CMakeFiles/cmTC_69bec.dir/build.make CMakeFiles/cmTC_69bec.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_69bec.dir/src.cxx.o
+/usr/bin/c++    -DPTHREAD_SETAFFINITY   -std=c++17 -o CMakeFiles/cmTC_69bec.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: "_GNU_SOURCE" redefined
+    1 | #define _GNU_SOURCE
+      | 
+<command-line>: note: this is the location of the previous definition
+Linking CXX executable cmTC_69bec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69bec.dir/link.txt --verbose=1
+/usr/bin/c++   -DPTHREAD_SETAFFINITY    CMakeFiles/cmTC_69bec.dir/src.cxx.o  -o cmTC_69bec  -lpthread 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+    int main(void) { cpu_set_t set;
+        CPU_ZERO(&set);
+        CPU_SET(0, &set);
+        pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+        return 0;
+    }
+Performing C SOURCE FILE Test C_mavx2_mfma_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77180/fast && /usr/bin/make -f CMakeFiles/cmTC_77180.dir/build.make CMakeFiles/cmTC_77180.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77180.dir/src.c.o
+/usr/bin/cc   -DC_mavx2_mfma_FLAG_ACCEPTED    -mavx2 -mfma -o CMakeFiles/cmTC_77180.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_77180
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77180.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_mavx2_mfma_FLAG_ACCEPTED    CMakeFiles/cmTC_77180.dir/src.c.o  -o cmTC_77180 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_mavx2_mfma_COMPILE_WORKS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57bbe/fast && /usr/bin/make -f CMakeFiles/cmTC_57bbe.dir/build.make CMakeFiles/cmTC_57bbe.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57bbe.dir/src.c.o
+/usr/bin/cc   -DC_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma   -o CMakeFiles/cmTC_57bbe.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_57bbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57bbe.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma    CMakeFiles/cmTC_57bbe.dir/src.c.o  -o cmTC_57bbe 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<immintrin.h>
+int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
+Performing C++ SOURCE FILE Test CXX_mavx2_mfma_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e49fa/fast && /usr/bin/make -f CMakeFiles/cmTC_e49fa.dir/build.make CMakeFiles/cmTC_e49fa.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e49fa.dir/src.cxx.o
+/usr/bin/c++    -DCXX_mavx2_mfma_FLAG_ACCEPTED    -mavx2 -mfma -std=c++17 -o CMakeFiles/cmTC_e49fa.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e49fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e49fa.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_mavx2_mfma_FLAG_ACCEPTED    CMakeFiles/cmTC_e49fa.dir/src.cxx.o  -o cmTC_e49fa 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_mavx2_mfma_COMPILE_WORKS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76f00/fast && /usr/bin/make -f CMakeFiles/cmTC_76f00.dir/build.make CMakeFiles/cmTC_76f00.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76f00.dir/src.cxx.o
+/usr/bin/c++    -DCXX_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma   -std=c++17 -o CMakeFiles/cmTC_76f00.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_76f00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f00.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma    CMakeFiles/cmTC_76f00.dir/src.cxx.o  -o cmTC_76f00 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<immintrin.h>
+int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
+Performing C SOURCE FILE Test C_mavx512f_mfma_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dac4b/fast && /usr/bin/make -f CMakeFiles/cmTC_dac4b.dir/build.make CMakeFiles/cmTC_dac4b.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dac4b.dir/src.c.o
+/usr/bin/cc   -DC_mavx512f_mfma_FLAG_ACCEPTED    -mavx512f -mfma -o CMakeFiles/cmTC_dac4b.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dac4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dac4b.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_mavx512f_mfma_FLAG_ACCEPTED    CMakeFiles/cmTC_dac4b.dir/src.c.o  -o cmTC_dac4b 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_mavx512f_mfma_COMPILE_WORKS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7aa1c/fast && /usr/bin/make -f CMakeFiles/cmTC_7aa1c.dir/build.make CMakeFiles/cmTC_7aa1c.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aa1c.dir/src.c.o
+/usr/bin/cc   -DC_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma   -o CMakeFiles/cmTC_7aa1c.dir/src.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7aa1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aa1c.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma    CMakeFiles/cmTC_7aa1c.dir/src.c.o  -o cmTC_7aa1c 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<immintrin.h>
+         int main(){__m512 x=_mm512_set1_ps(0.5); __m512 y=_mm512_fmadd_ps(x,x,x);
+          __m512i i = _mm512_set_epi32(15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0);
+          __mmask16 mask = (short)(0xffff);
+          int idata[16]; i  = _mm512_maskz_permutexvar_epi32(mask, i, i);
+          _mm512_storeu_si512(idata, i);
+          return idata[0]*(int)(_mm512_cmp_ps_mask(x,y,_CMP_LT_OS));}
+Performing C++ SOURCE FILE Test CXX_mavx512f_mfma_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d1fd/fast && /usr/bin/make -f CMakeFiles/cmTC_5d1fd.dir/build.make CMakeFiles/cmTC_5d1fd.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d1fd.dir/src.cxx.o
+/usr/bin/c++    -DCXX_mavx512f_mfma_FLAG_ACCEPTED    -mavx512f -mfma -std=c++17 -o CMakeFiles/cmTC_5d1fd.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5d1fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d1fd.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_mavx512f_mfma_FLAG_ACCEPTED    CMakeFiles/cmTC_5d1fd.dir/src.cxx.o  -o cmTC_5d1fd 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_mavx512f_mfma_COMPILE_WORKS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da92a/fast && /usr/bin/make -f CMakeFiles/cmTC_da92a.dir/build.make CMakeFiles/cmTC_da92a.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da92a.dir/src.cxx.o
+/usr/bin/c++    -DCXX_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma   -std=c++17 -o CMakeFiles/cmTC_da92a.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_da92a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da92a.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma    CMakeFiles/cmTC_da92a.dir/src.cxx.o  -o cmTC_da92a 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<immintrin.h>
+         int main(){__m512 x=_mm512_set1_ps(0.5); __m512 y=_mm512_fmadd_ps(x,x,x);
+          __m512i i = _mm512_set_epi32(15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0);
+          __mmask16 mask = (short)(0xffff);
+          int idata[16]; i  = _mm512_maskz_permutexvar_epi32(mask, i, i);
+          _mm512_storeu_si512(idata, i);
+          return idata[0]*(int)(_mm512_cmp_ps_mask(x,y,_CMP_LT_OS));}
+Performing C++ SOURCE FILE Test _Wno_unused_command_line_argument_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a16f2/fast && /usr/bin/make -f CMakeFiles/cmTC_a16f2.dir/build.make CMakeFiles/cmTC_a16f2.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a16f2.dir/src.cxx.o
+/usr/bin/c++    -D_Wno_unused_command_line_argument_FLAG_ACCEPTED   -Wno-unused-command-line-argument -std=c++17 -o CMakeFiles/cmTC_a16f2.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a16f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a16f2.dir/link.txt --verbose=1
+/usr/bin/c++   -D_Wno_unused_command_line_argument_FLAG_ACCEPTED    CMakeFiles/cmTC_a16f2.dir/src.cxx.o  -o cmTC_a16f2 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _callconv_  succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d2ec/fast && /usr/bin/make -f CMakeFiles/cmTC_3d2ec.dir/build.make CMakeFiles/cmTC_3d2ec.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d2ec.dir/src.cxx.o
+/usr/bin/c++    -D_callconv_   -std=c++17 -o CMakeFiles/cmTC_3d2ec.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d2ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d2ec.dir/link.txt --verbose=1
+/usr/bin/c++   -D_callconv_    CMakeFiles/cmTC_3d2ec.dir/src.cxx.o  -o cmTC_3d2ec 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#pragma GCC diagnostic error "-Wignored-attributes"
+int   f(int i) {return i;} int main(void) {return f(0);}
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED_COPY succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f950d/fast && /usr/bin/make -f CMakeFiles/cmTC_f950d.dir/build.make CMakeFiles/cmTC_f950d.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f950d.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NO_DEPRECATED_COPY   -Wno-deprecated-copy -std=c++17 -o CMakeFiles/cmTC_f950d.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f950d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f950d.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_NO_DEPRECATED_COPY       CMakeFiles/cmTC_f950d.dir/src.cxx.o  -o cmTC_f950d 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_STRINGOP_TRUNCATION succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8cda7/fast && /usr/bin/make -f CMakeFiles/cmTC_8cda7.dir/build.make CMakeFiles/cmTC_8cda7.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8cda7.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_STRINGOP_TRUNCATION   -Wno-stringop-truncation -std=c++17 -o CMakeFiles/cmTC_8cda7.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8cda7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cda7.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_STRINGOP_TRUNCATION       CMakeFiles/cmTC_8cda7.dir/src.cxx.o  -o cmTC_8cda7 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_REDUNDANT_MOVE succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7fedb/fast && /usr/bin/make -f CMakeFiles/cmTC_7fedb.dir/build.make CMakeFiles/cmTC_7fedb.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7fedb.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_REDUNDANT_MOVE   -Wno-redundant-move -std=c++17 -o CMakeFiles/cmTC_7fedb.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7fedb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fedb.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_REDUNDANT_MOVE       CMakeFiles/cmTC_7fedb.dir/src.cxx.o  -o cmTC_7fedb 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1cb3d/fast && /usr/bin/make -f CMakeFiles/cmTC_1cb3d.dir/build.make CMakeFiles/cmTC_1cb3d.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1cb3d.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_UNUSED   -Wno-unused -std=c++17 -o CMakeFiles/cmTC_1cb3d.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1cb3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cb3d.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_UNUSED       CMakeFiles/cmTC_1cb3d.dir/src.cxx.o  -o cmTC_1cb3d 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98108/fast && /usr/bin/make -f CMakeFiles/cmTC_98108.dir/build.make CMakeFiles/cmTC_98108.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98108.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_UNUSED_PARAMETER   -Wno-unused-parameter -std=c++17 -o CMakeFiles/cmTC_98108.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_98108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98108.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_UNUSED_PARAMETER       CMakeFiles/cmTC_98108.dir/src.cxx.o  -o cmTC_98108 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_MISSING_DECLARATIONS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12e58/fast && /usr/bin/make -f CMakeFiles/cmTC_12e58.dir/build.make CMakeFiles/cmTC_12e58.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12e58.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_MISSING_DECLARATIONS   -Wno-missing-declarations -std=c++17 -o CMakeFiles/cmTC_12e58.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_12e58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12e58.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_MISSING_DECLARATIONS       CMakeFiles/cmTC_12e58.dir/src.cxx.o  -o cmTC_12e58 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_NULL_CONVERSIONS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54bbf/fast && /usr/bin/make -f CMakeFiles/cmTC_54bbf.dir/build.make CMakeFiles/cmTC_54bbf.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54bbf.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_NULL_CONVERSIONS   -Wno-null-conversion -std=c++17 -o CMakeFiles/cmTC_54bbf.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_54bbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54bbf.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_NULL_CONVERSIONS       CMakeFiles/cmTC_54bbf.dir/src.cxx.o  -o cmTC_54bbf 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_CLASS_MEMACCESS succeeded with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f02f3/fast && /usr/bin/make -f CMakeFiles/cmTC_f02f3.dir/build.make CMakeFiles/cmTC_f02f3.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f02f3.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_CLASS_MEMACCESS   -Wno-class-memaccess -std=c++17 -o CMakeFiles/cmTC_f02f3.dir/src.cxx.o -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f02f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f02f3.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_CLASS_MEMACCESS       CMakeFiles/cmTC_f02f3.dir/src.cxx.o  -o cmTC_f02f3 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bfc8d/fast && /usr/bin/make -f CMakeFiles/cmTC_bfc8d.dir/build.make CMakeFiles/cmTC_bfc8d.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfc8d.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bfc8d.dir/TestEndianess.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_bfc8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfc8d.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTC_bfc8d.dir/TestEndianess.c.o  -o cmTC_bfc8d 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b765d/fast && /usr/bin/make -f CMakeFiles/cmTC_b765d.dir/build.make CMakeFiles/cmTC_b765d.dir/build
+make[1]: Entering directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b765d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b765d.dir/CheckIncludeFile.c.o   -c /home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b765d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b765d.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTC_b765d.dir/CheckIncludeFile.c.o  -o cmTC_b765d 
+make[1]: Leaving directory '/home/timmy/myCode/HPC-AI/gromacs-2021.2/build/CMakeFiles/CMakeTmp'
+
+
+

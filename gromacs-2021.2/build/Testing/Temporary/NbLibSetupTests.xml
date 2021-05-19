@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="39" failures="0" disabled="0" errors="0" timestamp="2021-05-17T14:23:05" time="0.027" name="AllTests">
+  <testsuite name="NBlibTest" tests="39" failures="0" disabled="0" errors="0" time="0.027">
+    <testcase name="CubicBoxCannotHaveNaN" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CubicBoxCannotHaveInf" status="run" time="0" classname="NBlibTest" />
+    <testcase name="RectangularBoxCannotHaveNaN" status="run" time="0" classname="NBlibTest" />
+    <testcase name="RectangularBoxCannotHaveInf" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CubicBoxWorks" status="run" time="0" classname="NBlibTest" />
+    <testcase name="NonBondedForceParamsCorrect" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanMergeInteractions" status="run" time="0" classname="NBlibTest" />
+    <testcase name="ParticleTypeNameCanBeConstructed" status="run" time="0" classname="NBlibTest" />
+    <testcase name="ParticleTypeMassCanBeConstructed" status="run" time="0" classname="NBlibTest" />
+    <testcase name="PbcHolderWorks" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanConstructMoleculeWithoutChargeOrResidueName" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanConstructMoleculeWithChargeWithoutResidueName" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanConstructMoleculeWithoutChargeWithResidueName" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanConstructMoleculeWithChargeWithResidueName" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanGetNumParticlesInMolecule" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanConstructExclusionListFromNames" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanConstructExclusionListFromNamesAndIndicesMixed" status="run" time="0" classname="NBlibTest" />
+    <testcase name="AtWorks" status="run" time="0" classname="NBlibTest" />
+    <testcase name="AtThrows" status="run" time="0.026" classname="NBlibTest" />
+    <testcase name="MoleculeThrowsSameParticleTypeNameDifferentMass" status="run" time="0" classname="NBlibTest" />
+    <testcase name="MoleculeDontThrowsSameParticleTypeNameDifferentMass" status="run" time="0" classname="NBlibTest" />
+    <testcase name="MoleculeNoThrowsSameParticleTypeName" status="run" time="0" classname="NBlibTest" />
+    <testcase name="CanAddInteractions" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyHasNumParticles" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyHasCharges" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyHasMasses" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyHasParticleTypes" status="run" time="0.001" classname="NBlibTest" />
+    <testcase name="TopologyHasParticleTypeIds" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyThrowsIdenticalParticleType" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyHasExclusions" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyHasSequencing" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyCanAggregateBonds" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyCanSequencePairIDs" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologySequenceIdThrows" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyCanEliminateDuplicateBonds" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyListedInteractions" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyListedInteractionsMultipleTypes" status="run" time="0" classname="NBlibTest" />
+    <testcase name="TopologyInvalidParticleInInteractionThrows" status="run" time="0" classname="NBlibTest" />
+    <testcase name="toGmxExclusionBlockWorks" status="run" time="0" classname="NBlibTest" />
+  </testsuite>
+</testsuites>
